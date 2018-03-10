@@ -1,0 +1,496 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Bambu &mdash; TSA Chapter</title>
+	<link rel="icon" 
+	type="image/png" 
+	href="./images/bambu/bambu.png">
+	<!-- to allow mobile view, kinda buggy tho so ima keep it off for now ;/-->
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+	<meta name="description" content="Bambu Bunny's website." />
+	<meta name="keywords" content="bambu, robot bunny, bambubunny" />
+	<meta name="author" content="Michael Vuolo" />
+
+	<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+	
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/modernizr-2.6.2.min.js"></script>
+
+	<style>
+
+.roundimg {
+	border-radius: 15px;
+}
+
+#officer-box1 {
+    border-radius: 25px;
+    background: #fafafa;
+    padding: 20px; 
+    width: 750px;
+	height: 375px;   
+	margin-right: 750px;
+}
+
+#officer-box2 {
+    border-radius: 25px;
+    background: #fafafa;
+    padding: 20px; 
+    width: 750px;
+	height: 475px;   
+	margin-left: 750px;
+}
+
+#officer-box3 {
+    border-radius: 25px;
+    background: #fafafa;
+    padding: 20px; 
+    width: 750px;
+	height: 515px;   
+	margin-right: 750px;
+}
+
+#officer-box4 {
+    border-radius: 25px;
+    background: #fafafa;
+    padding: 20px; 
+    width: 750px;
+	height: 375px;   
+	margin-left: 750px;
+}
+
+#officer-box5 {
+    border-radius: 25px;
+    background: #fafafa;
+    padding: 20px; 
+    width: 750px;
+	height: 375px;   
+	margin-right: 750px;
+}
+
+#officer-box6 {
+    border-radius: 25px;
+    background: #fafafa;
+    padding: 20px; 
+    width: 750px;
+	height: 425px;   
+	margin-left: 750px;
+}
+
+#officer-box7 {
+    border-radius: 25px;
+    background: #fafafa;
+    padding: 20px; 
+    width: 750px;
+	height: 375px;   
+	margin-right: 750px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #00e6ac;
+	min-width: 0px;
+	max-width: 450px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+	</style>
+
+	</head>
+	<body>
+		
+	<div class="bambnut-load-page"></div>
+	
+	<div id="bambuu">
+	<nav class="chapter-nav" role="navigation">
+		<div class="bambnut-container">
+			<div class="row">
+				<div class="col-sm-2 col-xs-12">
+					<div id="gtco-logo"><a href="index.html"><img src="./images/bambu/bambu.png" alt="" width="20%" style="PADDING-RIGHT: 2px" height="20%">Bambu</a></div>
+				</div>
+				<div class="col-xs-10 text-right menu-1 main-nav">
+					<ul>
+						<div class="dropdown">
+						<li><a href="index.html" onclick="home();">Home</a>-</li>
+							<div class="dropdown-content" align="center">
+								<li><a href="#" onclick="home_about();">About</a>-</li>
+								<li><a href="#" onclick="home_pictures();">Pictures</a></li>
+							</div>
+						</div>
+						<div class="dropdown">
+						<li><a href="chapter.html" data-nav-section="home">TSA Chapter</a>-</li>
+							<div class="dropdown-content" align="center">
+								<li><a href="#" data-nav-section="officers">Officers</a>-</li>
+								<li><a href="#" data-nav-section="activities">Activities</a>-</li>
+								<li><a href="#" data-nav-section="accomplishments">Accomplishments</a></li>
+							</div>
+						</div>
+						<div class="dropdown">
+						<li><a href="stem.html" onclick="stem();">STEM</a>-</li>
+							
+						</div>
+						<div class="dropdown">
+						<li><a href="ai.html" onclick="ai();">Artificial Intelligence</a>-</li>
+							
+						</div>
+						<div class="dropdown">
+						<li><a href="bambu.html" onclick="bambu();">Bambu Bunny</a></li>
+							<div class="dropdown-content" align="center">
+								<li><a href="#" onclick="bambu_overview();">Overview</a>-</li>
+								<li><a href="#" onclick="bambu_benefits();">Benefits</a>
+								
+							</div>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+    <script>
+			function home(){
+				window.location.href = "index.html";
+			}
+			function home_about(){
+				window.location.href = "index.html#about";
+			}
+			function home_pictures(){
+				window.location.href = "index.html#pictures";
+			}
+			function chapter(){
+				window.location.href = "chapter.html";
+			}
+			function chapter_officers(){
+				window.location.href = "chapter.html#officers";
+			}
+			function chapter_activities(){
+				window.location.href = "chapter.html#activities";
+			}
+			function chapter_accomplishments(){
+				window.location.href = "chapter.html#accomplishments";
+			}
+			function stem(){
+				window.location.href = "stem.html";
+			}
+			function stem_ib_program(){
+				window.location.href = "stem.html#ib-program";
+			}
+			function stem_health_academy(){
+				window.location.href = "stem.html#health-academy";
+			}
+			function stem_mass_media(){
+				window.location.href = "stem.html#mass-media";
+			}
+			function stem_advanced_placement(){
+				window.location.href = "stem.html#advanced-placement";
+			}
+			function stem_extracurriculars(){
+				window.location.href = "stem.html#extracurriculars";
+			}
+			function ai(){
+				window.location.href = "ai.html";
+			}
+			function ai_history(){
+				window.location.href = "ai.html#history";
+			}
+			function ai_technology_behind_ai(){
+				window.location.href = "ai.html#technology-behind-ai";
+			}
+			function ai_future_uses(){
+				window.location.href = "ai.html#future-uses";
+			}
+			function ai_available_technologies(){
+				window.location.href = "ai.html#available-technologies";
+			}
+			function ai_safety(){
+				window.location.href = "ai.html#safety";
+			}
+			function ai_pros_cons(){
+				window.location.href = "ai.html#pros-cons";
+			}
+			function bambu(){
+				window.location.href = "bambu.html";
+			}
+			function bambu_overview(){
+				window.location.href = "bambu.html#overview";
+			}
+			function bambu_technologies(){
+				window.location.href = "bambu.html#technologies";
+			}
+			function bambu_benefits(){
+				window.location.href = "bambu.html#benefits";
+			}
+			function bambu_buy_now(){
+				window.location.href = "bambu.html#buy-now";
+			}
+	</script>	
+
+	<div id="bambnut-header" data-section="home" class="bambnut-cover header-fixed" role="banner" style="background-image:url(./images/school/meeting-2.jpg);">
+		<div class="overlay"></div>
+		<div class="bambnut-container">
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0 text-center">
+					<div class="display-t">
+						<div class="display-tc">
+							<h1 class="animate-box" data-animate-effect="fadeIn">TSA Chapter</h1>
+							<h2 class="animate-box" data-animate-effect="fadeIn"></h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+
+	
+	<div id="chapter" class="border-bottom" data-section="chapter">
+		
+
+
+		<div class="bambnut-container-ai text-center">
+				<div class="row">
+					<div class="col-md-12 text-center">
+							<div class="row" align="center">
+									<br><br>
+									<h1><b><font size="60">Our Chapter</font></b></h1>
+									<h1><b><font size="5">Seminole High’s TSA chapter is in its second year of development with Kashyap Sreeram founding it in his freshman year and running as current President. Karthik Sreeram is the current Vice-President with club advisor Kevin Strileckis, secretary Tanay Poddar, and Treasurer Zarif Ceasar. They were elected by an application and request to make the club a better place. This year we have 61 members and are competing in nearly every competition for the TSA State Conference.</font><b></h1>									
+									<br>
+							</div>
+					</div>
+				</div>
+				
+					<div class="row" align="center">
+							<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+								<div class="bambnut-center-content">
+									<h1 style="padding: 0 0 0 0"><font id="future-uses" size="15">🙂</font></h1>
+									<span class="counter-label"><b>Teamwork</b></span>
+									<br><br>
+									<span class="counter" style="color:#00cc99">We strive to grow together as a team and individually.</span>
+								</div>
+							</div>
+							<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+								<div class="bambnut-center-content">
+									<h1 style="padding: 0 0 0 0"><font id="future-uses" size="15">🚩</font></h1>
+									<span class="counter-label"><b>Mission Statement</b></span>
+									<br><br>
+									<span class="counter" style="color:#00cc99">We will learn more about technology and the ever advancing technological workplace and future.</span>
+								</div>
+							</div>	
+							<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+								<div class="bambnut-center-content">
+									<h1 style="padding: 0 0 0 0"><font id="future-uses" size="15">😄</font></h1>
+									<span class="counter-label"><b>Advancement</b></span>
+									<br><br>
+									<span class="counter" style="color:#00cc99">We seek to further advance our technological and team working skills.</span>
+								</div>
+							</div>				
+						</div>
+					</div>
+			</div>
+		
+
+	<div id="officers" class="border-bottom" data-section="officers">
+
+		<div class="row">
+					<div class="col-md-12 text-center">
+							<div class="row" align="center">
+									<br><br>
+									<h1><b><font size="60">Officers</font></b></h1>					
+								</div>
+							</div>
+					</div>
+
+		<div class="bambu-container animate-box" data-animate-effect="fadeInLeft" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+			<img class="roundimg" src="./images/school/kevin-strileckis.png" alt="" align="right" style="margin-right: 425px; margin-top: 35px" width="10%" height"10%">
+				<div id="officer-box1" >
+					<font size="6" color="#000">
+						👨‍🏫 Club Advisor<br>
+							<h2 align="left"><font style="padding: 0 0 0 20px" size="5"><b>Kevin Strileckis</b></font></h2>
+							<h1><font size="4">Mr. Strileckis currently teaches all the computer courses at Seminole high school including AP Computer Principles and AP Computer Science A. He graduated from the University of Central Florida when he was 20. He acts as the club moderator and oversees the club’s duties on a day to day basis. He helps students formulate their project ideas when in need and demonstrates and displays the proper skills needed for a club advisor.</font></h1>
+					</font>
+				</div>
+		</div>
+
+		<div class="bambu-container animate-box" data-animate-effect="fadeInRight" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+			<img class="roundimg" src="./images/school/kashyap-sreeram.jpeg" alt="" align="left" style="margin-left: 450px" width="15%" height"15%">
+				<div id="officer-box2" >
+					<font size="6" color="#000">
+						President 👴<br>
+							<h2 align="left"><font style="padding: 0 0 0 20px" size="5"><b>Kashyap Sreeram</b></font></h2>
+							<h1><font size="4">Kashyap is a sophomore at Seminole High School in the IB Program, ranking 2nd in his class. He is the founder and president of Seminole High School TSA, representing the club strongly at all expos and working to expand the organization throughout the county. As well as TSA, Kashyap is involved in clubs from Model UN, to SNHS, to Mu Alpha Theta. Kashyap pursues his passion for STEM by competing in science fairs every year, researching biochemistry in research centers, and participating in a pediatric internship. He hopes to become a neurosurgeon in the future.</font></h1>
+					</font>
+					<font size="5"><p align="center" class="gtco-video-link"><a style="color:#00cc99" href="https://www.youtube.com/watch?v=53RuHrb8XTQ" class="popup-vimeo">▶ Watch the Interview</a></p></font>
+				</div>
+		</div>
+
+		<div class="bambu-container animate-box" data-animate-effect="fadeInLeft" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+			<img class="roundimg" src="./images/school/karthik-sreeram.JPG" alt="" align="right" style="margin-right: 350px; margin-top: 15px" width="17%" height"17%">
+				<div id="officer-box3" >
+					<font size="6" color="#000">
+						👴 Vice President<br>
+							<h2 align="left"><font style="padding: 0 0 0 20px" size="5"><b>Karthik Sreeram</b></font></h2>
+							<h1><font size="4">Along with being Vice-President of Technology Student Association, Karthik has a busy schedule as a senior in the rigorous IB program. Karthik is also heavily involved in Model United Nations and Mu Alpha Theta. Karthik is fluent in the programming languages of Python, Javascript, and R. After-school, you can find Karthik at his internship with data analytics to pursue his passion in STEM, and also is a team member in Seminole's Tennis Team. The school county has recognized Karthik as the only student who won the Informational Technology Student Award. In 2017, Karthik was in the top 3 of the Florida Tech Bowl competition.</font></h1>
+					</font>
+					<font size="5"><p align="center" class="gtco-video-link"><a style="color:#00cc99" href="https://www.youtube.com/watch?v=AldjE5lae-Q" class="popup-vimeo">▶ Watch the Interview</a></p></font>
+				</div>
+		</div>
+
+		<div class="bambu-container animate-box" data-animate-effect="fadeInRight" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+			<img class="roundimg" src="./images/school/tanay-poddar.JPG" alt="" align="left" style="margin-left: 450px" width="14%" height"14%">
+				<div id="officer-box4" >
+					<font size="6" color="#000">
+						Secretary 💻<br>
+							<h2 align="left"><font style="padding: 0 0 0 20px" size="5"><b>Tanay Poddar</b></font></h2>
+							<h1><font size="4">Tanay, a sophomore in the IB program, follows through with his love for STEM by competing in the Biology Olympiad, Mu Alpha Theta, and various programming competitions through the school’s programming club. Tanay was inducted in the school’s Science National Honor Society to honor up and coming scientists. Tanay can program in Java, C++, and Python. Tanay represented Seminole High by competing in the Technology Student Association Florida State conference in 2017.</font></h1>
+					</font>
+				</div>
+		</div>
+
+		<div class="bambu-container animate-box" data-animate-effect="fadeInLeft" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+			<img class="roundimg" src="./images/school/zarif-ceasar.JPG" alt="" align="right" style="margin-right: 375px" width="14%" height"14%">
+				<div id="officer-box5" >
+					<font size="6" color="#000">
+						🗝️ Treasurer<br>
+							<h2 align="left"><font style="padding: 0 0 0 20px" size="5"><b>Zarif Ceasar</b></font></h2>
+							<h1><font size="4">Zarif, an IB sophomore, demonstrates great leadership skills as a treasurer of Technology Student Association and a representative in the Sanford’s Mayor Youth Council. Zarif dedicates his time by giving back to the community by volunteering at the Orlando Science Center and Boys and Girls Club. Zarif is fluent in Python, HTML, and CSS. Also, Zarif is certified in Adobe Premiere Pro as well as Microsoft Office. In 2017, Zarif earned 2nd place in the Tech Bowl competition.</font></h1>
+					</font>
+				</div>
+		</div>
+
+		<div class="bambu-container animate-box" data-animate-effect="fadeInRight" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+			<img class="roundimg" src="./images/school/oluwabunmi-soremi.jpeg" alt="" align="left" style="margin-left: 450px; margin-top: 25px" width="14%" height"14%">
+				<div id="officer-box6" >
+					<font size="6" color="#000">
+						Reporter 📋<br>
+							<h2 align="left"><font style="padding: 0 0 0 20px" size="5"><b>Oluwabunmi Soremi</b></font></h2>
+							<h1><font size="4">Oluwabunmi is a vibrant IB sophomore who intends to have a career in the STEM field. Along with being a reporter of Technology Student Association, Oluwabunmi is a club officer of Beta Chi to unite IB students together in a strong community. She was recently inducted into the prestigious Science National Honor Society. Oluwabunmi is in TV production courses and is certified in Adobe. She went to the state conference in 2017 for the robotics competition, and was a semifinalist for the biotechnology competition.</font></h1>
+					</font>
+				</div>
+		</div>
+
+		<div class="bambu-container animate-box" data-animate-effect="fadeInLeft" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+			<img class="roundimg" src="./images/school/vishal-dubey.jpg" alt="" align="right" style="margin-right: 375px" width="13%" height"13%">
+				<div id="officer-box7" >
+					<font size="6" color="#000">
+						👮 Sergeant at Arms<br>
+							<h2 align="left"><font style="padding: 0 0 0 20px" size="5"><b>Vishal Dubey</b></font></h2>
+							<h1><font size="4">Vishal is an IB junior who is both devoted to his studies and pursuing his passion for STEM in various activities, such as competing in Mu Alpha Theta, programming competitions, and science competitions through the school science competition club. Vishal also is apart of the prestigious Illuminati academic team. In recognition of his love for technology, Vishal placed 3rd in the Technology Student Association 2017 coding competition in Florida.</font></h1>
+					</font>
+				</div>
+		</div>
+		
+		</div>
+
+		<div id="activities" class="border-bottom" data-section="activities">
+
+			<div class="bambu-container1">
+			<div class="row" align="left">
+				<br><br><h1><b><font align="center" style="padding: 0 0 0 110px" size="15">🚣 Chapter Activities</font></b></h1>
+				<img src="./images/school/meeting.JPG" alt="" align="right" style="PADDING-LEFT: 50px; PADDING-BOTTOM: 35px" width="50%" height"50%">
+								
+				<div class="bambu-container" align="left" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+					<p style="color:#2f2f2f" align="center">Our activities include mandatory meeting and collaborations every Tuesday after school from 2:15-3:30. In these meetings, we discuss and participate in a group discussion about the objectives of the week and problems we face. Each meeting has its own objective from holding in school competitions to practice interviews and analysis among ourselves. Each of our individual groups also work together on our separate projects we are presenting at the State Competition with officers watching and giving us guidance. Our chapter, apart from working, is also a place to hang out and talk with fellow peers after a busy day of school and homework.</p>
+				</div>
+			</div>
+			</div>
+		</div>
+
+
+
+		<div id="accomplishments" class="border-bottom" data-section="accomplishments">
+
+			<div class="bambu-container1">
+			<div class="row" align="left">
+				
+				<br><br><img src="./images/school/tsa-green.JPG" alt="" align="left" style="PADDING-RIGHT: 50px; PADDING-BOTTOM: 35px" width="50%" height"50%">
+				<h1><b><font align="center" style="padding: 0 0 0 55px" size="15">Chapter Accomplishments ✔️</font></b></h1>
+								
+				<div  class="row" align="center" style="padding: 0 0 50px; color: #2f2f2f">
+
+					<font size="4">
+					
+								<br><h3><b>🏆 Student Projects & Past Winners<b></h3>
+									<li>Jason & James in State Semi-Finals: Webmaster 2016</li>
+									<li>Vishal Dubey 3rd Place: Coding</li>
+									<li>Zarif Ceasar 2nd Place: Tech Bowl Written Exam</li>		
+									<li>Kashyap Sreeram, Oluwabunmi Soremi, Tanay Poddar State Semi-Finals: Biotechnology</li>	
+									<li>Kashyap Sreeram, Karthik Sreeram, Zarif Ceaser State Semi-Finals: Tech Bowl</li>	
+									<li>Kyle Stromberg & Ryan Rahbari State Finalists: Debate</li>
+								</div>
+
+							</font>
+
+			</div>
+
+			</div>
+		</div>
+
+	<footer id="bambnut-bottom-foot" role="contentinfo" style="background: #efefef;">
+		<div class="bambnut-container">
+			<div class="row row-pb-md">
+
+				<div class="col-md-10">
+					<div class="gtco-widget">
+						<h3>About SHS</h3>
+						<p>Seminole High School is a comprehensive public high school enrolling approximately 3200 students in grades 9 through 12. The school offers two magnet programs, the International Baccalaureate (IB) and Academy of Health Careers, plus the traditional comprehensive high school program which offers remedial, standard, honors, gifted, and Advanced Placement classes.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	</div>
+
+	<div class="bambnut-TOP-GO js-top">
+		<a href="#" class="js-gotop"><font size="6">⬆</font></a>
+	</div>
+	
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/bootstrap.min.js"></script>	
+	<script src="js/owl.carousel.min.js"></script>
+	<script>
+		$(document).ready(function(){
+  		$('.owl-carousel').owlCarousel();
+		});
+	</script>
+	<script>
+		var owl = $('.owl-carousel');
+	owl.owlCarousel({
+	    items:4,
+	    loop:true,
+	    margin:10,
+	    autoplay:true,
+	    autoplayTimeout:1000,
+	    autoplayHoverPause:true
+	});
+	owl.trigger('play.owl.autoplay',[5000])
+	</script>
+
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	
+	<script src="js/main.js"></script>
+
+	</body>
+</html>

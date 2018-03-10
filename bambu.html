@@ -1,0 +1,426 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Bambu &mdash; Bambu Bunny</title>
+	<link rel="icon" 
+	type="image/png" 
+	href="./images/bambu/bambu.png">
+	<!-- to allow mobile view, kinda buggy tho so ima keep it off for now ;/-->
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+	<meta name="description" content="Bambu Bunny's website." />
+	<meta name="keywords" content="bambu, robot bunny, bambubunny" />
+	<meta name="author" content="Michael Vuolo" />
+
+	<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/modernizr-2.6.2.min.js"></script>
+
+	<style>
+
+.roundimg {
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px #999; 
+}
+
+#bambu-benefits-box1 {
+    border-radius: 25px;
+    background: #fafafa;
+    padding: 20px; 
+    width: 750px;
+	height: 325px;   
+	margin-right: 750px;
+}
+
+#bambu-benefits-box2 {
+    border-radius: 25px;
+    background: #fafafa;
+    padding: 20px; 
+    width: 750px;
+	height: 375px;   
+	margin-left: 750px;
+}
+
+#bambu-benefits-box3 {
+    border-radius: 25px;
+    background: #fafafa;
+    padding: 20px; 
+    width: 750px;
+	height: 480px;   
+	margin-right: 750px;
+}
+
+#bambu-benefits-box4 {
+    border-radius: 25px;
+    background: #fafafa;
+    padding: 20px; 
+    width: 750px;
+	height: 450px;   
+	margin-left: 750px;
+}
+
+#bambu-emotion-box {
+    border-radius: 25px;
+    background: #fafafa;
+    padding: 20px; 
+    width: 750px;
+    height: 700px;    
+}
+
+#bambu-assistance-box {
+    border-radius: 25px;
+    background: #fafafa;
+    padding: 20px; 
+    width: 750px;
+    height: 700px;    
+}
+
+#bambu-other-box {
+    border-radius: 25px;
+    background: #fafafa;
+    padding: 20px; 
+    width: 750px;
+    height: 525px;    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #ff6666;
+	min-width: 0px;
+	max-width: 450px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+	</style>
+
+	</head>
+	<body>
+		
+	<div class="bambnut-load-page"></div>
+	
+	<div id="bambuu">
+	<nav class="bambu-nav" role="navigation">
+		<font size="-69">
+		<div class="bambnut-container">
+			<div class="row">
+				<div class="col-xs-10 text-center menu-1 main-nav" style="PADDING-LEFT: 225px">
+					<ul>
+						<div class="dropdown">
+						<li><a href="index.html" onclick="home();">Home</a>-</li>
+							<div class="dropdown-content" align="center">
+								<li><a href="#" onclick="home_about();">About</a>-</li>
+								<li><a href="#" onclick="home_pictures();">Pictures</a></li>
+							</div>
+						</div>
+						<div class="dropdown">
+						<li><a href="chapter.html" onclick="chapter();">TSA Chapter</a>-</li>
+							<div class="dropdown-content" align="center">
+								<li><a href="#" onclick="chapter_officers();">Officers</a>-</li>
+								<li><a href="#" onclick="chapter_activities();">Activities</a>-</li>
+								<li><a href="#" onclick="chapter_accomplishments();">Accomplishments</a></li>
+							</div>
+						</div>
+						<div class="dropdown">
+						<li><a href="stem.html" onclick="stem();">STEM</a>-</li>
+							
+						</div>
+						<div class="dropdown">
+						<li><a href="ai.html" onclick="ai();">Artificial Intelligence</a>-</li>
+							
+						</div>
+						<div class="dropdown">
+						<li><a href="bambu.html" data-nav-section="home">Bambu Bunny</a></li>
+							<div class="dropdown-content" align="center">
+								<li><a href="#" data-nav-section="overview">Overview</a>-</li>
+								<li><a href="#" data-nav-section="benefits">Benefits</a>							
+							</div>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</font>
+	</nav>
+
+    <script>
+			function home(){
+				window.location.href = "index.html";
+			}
+			function home_about(){
+				window.location.href = "index.html#about";
+			}
+			function home_pictures(){
+				window.location.href = "index.html#pictures";
+			}
+			function chapter(){
+				window.location.href = "chapter.html";
+			}
+			function chapter_officers(){
+				window.location.href = "chapter.html#officers";
+			}
+			function chapter_activities(){
+				window.location.href = "chapter.html#activities";
+			}
+			function chapter_accomplishments(){
+				window.location.href = "chapter.html#accomplishments";
+			}
+			function stem(){
+				window.location.href = "stem.html";
+			}
+			function stem_ib_program(){
+				window.location.href = "stem.html#ib-program";
+			}
+			function stem_health_academy(){
+				window.location.href = "stem.html#health-academy";
+			}
+			function stem_mass_media(){
+				window.location.href = "stem.html#mass-media";
+			}
+			function stem_advanced_placement(){
+				window.location.href = "stem.html#advanced-placement";
+			}
+			function stem_extracurriculars(){
+				window.location.href = "stem.html#extracurriculars";
+			}
+			function ai(){
+				window.location.href = "ai.html";
+			}
+			function ai_history(){
+				window.location.href = "ai.html#history";
+			}
+			function ai_technology_behind_ai(){
+				window.location.href = "ai.html#technology-behind-ai";
+			}
+			function ai_future_uses(){
+				window.location.href = "ai.html#future-uses";
+			}
+			function ai_available_technologies(){
+				window.location.href = "ai.html#available-technologies";
+			}
+			function ai_safety(){
+				window.location.href = "ai.html#safety";
+			}
+			function ai_pros_cons(){
+				window.location.href = "ai.html#pros-cons";
+			}
+			function bambu(){
+				window.location.href = "bambu.html";
+			}
+			function bambu_overview(){
+				window.location.href = "bambu.html#overview";
+			}
+			function bambu_technologies(){
+				window.location.href = "bambu.html#technologies";
+			}
+			function bambu_benefits(){
+				window.location.href = "bambu.html#benefits";
+			}
+			function bambu_buy_now(){
+				window.location.href = "bambu.html#buy-now";
+			}
+	</script>	
+
+	<div id="overview" data-section="overview" style="PADDING-TOP: 50px">
+		<div class="bambnut-container-ai">
+				<div class="row" align="center">
+					<img src="./bambu.png" alt="" align="center" style="PADDING-LEFT: 50px; PADDING-BOTTOM: 50px" width="100%" height"100%">
+					<h1><b><font size="60">Bambu Bunny</font></b></h1>
+					<h1><b><font size="5">Bambu Bunny recognizes the power of meaningful friendships in childhood. Bambu Bunny is a comprehensive 21st century robot, implemented through Artificial Intelligence, to act as an assistive aid in both the educational and health realms, while also reaping all the benefits of a true companion. Bambu Bunny is garnered specifically towards aiding children in hospitals to offer maximum physical and emotional nurturing support. Through advanced emotions and sensors, Bambu Bunny is an ideal friend for children in hospitals, allowing them to develop successful life skills and boost their positivity during times of distress.</font><b></h1>
+					<br><br><br><hr><br><br id="benefits" data-section="benefits"><br>
+				</div>
+		</div>
+
+		<div class="bambu-benefits">
+			<div class="row" align="center">
+				<h1><b><font size="15">Benefits</font></b></h1>
+											
+				<div class="bambu-container animate-box" data-animate-effect="fadeInLeft" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+					<img class="roundimg" src="./images/girls.jpg" alt="Source: https://cdn.pixabay.com/photo/2014/05/19/22/28/girls-348576_960_720.jpg" align="right" style="margin-right: 25px" width="40%" height"40%">
+					<div id="bambu-benefits-box1" >
+						<font size="6" color="#000">
+							🐰 Companion Bonding<br>
+								<h1><font size="4">• Teaches children essential skills in order to navigate life and careers, such as teamwork, emotional development, and guiding in strong ethics.</font></h1>
+								<h1><font size="4">• Builds a strong foundation for empathy.</font></h1>
+								<h1><font size="4">• Allows a smooth transition towards embracing social interactions.</font></h1>
+						</font>
+					</div>
+				</div>
+				<div class="bambu-container animate-box" data-animate-effect="fadeInRight" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+					<img class="roundimg" src="./images/teacher.jpg" alt="Source: https://www.juniorowo.pl/wp-content/uploads/2015/04/8081865961_b9888b6fd6_o.jpg" align="left" style="margin-left: 75px" width="40%" height"40%">
+					<div id="bambu-benefits-box2">
+						<font size="6" color="#000">
+							👨‍🏫 Educational Assistance<br>
+								<h1><font size="4">• Linked to a diverse array of reliable educational websites, including Khan Academy and Udemy, to offer a personalized education full of worksheets and problems of subjects such as math, reading, science, and more!</font></h1>
+								<h1><font size="4">• A powerful intelligent tutor always ready to help! Getting answers to any homework questions fast and easily.</font></h1>
+						</font>
+					</div>
+				</div>
+				<div class="bambu-container animate-box" data-animate-effect="fadeInLeft" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+					<img class="roundimg" src="./images/security.jpg" alt="Source: https://media.defense.gov/2011/Sep/15/2000218985/-1/-1/0/110915-F-NJ596-002.JPG" align="right" style="margin-right: 25px; margin-top: 75px" width="40%" height"40%">
+					<div id="bambu-benefits-box3">
+						<font size="6" color="#000">
+							🔒 Comfort and Security<br>
+								<h1><font size="4">• Whenever the children are in distress, the Bambu Bunny acts a wonderful security blanket. With personalized features such as soothing temperature variations and alleviating songs, the children will have an ever-enhanced experience to soothe their distress.</font></h1>
+								<h1><font size="4">• Provides calmness and increased flexibility for the children’s loved ones of knowing that their children has 24/7 supervision from a reliable Bambu Bunny.</font></h1>
+								<h1><font size="4">• Bambu Bunny is equipped with various emergency skills, such as CPR and first aid. If Bambu Bunny is unable to perform a task, Bambu Bunny is easily connected with emergency contacts.</font></h1>
+						</font>
+					</div>
+				</div>
+				<div class="bambu-container animate-box" data-animate-effect="fadeInRight" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+					<img class="roundimg" src="./images/laptop.jpg" alt="Source: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUTEhIVFhUVFxUYFRYVGBYXFRcWFRUWFhUXFxYYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGy0lHyUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBEwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAQIEBQYDBwj/xAA/EAABAgMECAMHAgQFBQAAAAABAAIDBBEFITFBBhIiUWFxgfCRocETMkJSsdHhB2JygpLxIzNDotIUFWOywv/EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EACARAQEAAgIDAQEBAQAAAAAAAAABAhEDMRIhUUFhEyL/2gAMAwEAAhEDEQA/AMtRIWLu1iSi4tvQiPRNcwKSWBMLU5S0iOgqNGh0VkuUw0EFXjldoyxlipKQpShdDlNTmoQEEUppTkwogoQhATIoQhFUAJEIQAhCEAIQhACWqRCAchNSoBVs/wBP5T34tMdkchefMjwWMXqmi0p7OC1uYF/8Rvd5kqc+l4T24aRP2KJ+jTaMXHSY4BWdjspDCyaqjSiNkslaDtkBaLSN9X0WZtE3gJwqiAq00eZWKFVrRaJQKuqrqZ22jKUCVIQhZrYhgTHtVbFtf5W+KixJ+Ic6clM4sl3lxi2CYXqlbHdWtSpcGdyd4p3isLHml9JbyuD33JSUkSDUIkO1AaKlSpiznNaHVBB3FchLOKkwZN1KVuWzHWvxX0XWDBLsASeCupWymnEVWks6RLfdZ5XeKrx2jemHfZsUCpYaKE4L06eiMaKPe0E5VvWTtyQrtMaDyT8dJ3tnEqVzd6bRIFSIQgBCEIAQhCAEIQgBCEIAQhCAsbAlRFmIbDQDWBcThQXlewMlWgbF30PIrxWGaNPE06C8+dFZ2bpFMQbmvJb8rqkeOIWWeNvTXCyT22luycQuB1CRXEX/AEVxKtpDHJZqztN2ONIoLDvO03xF48CtBDnGRG6zTrNOJYQ4daLPdnca6l6ZG131iFZ+dO2VtpywxEJfCfXge6jwWStOy48MkvhuA+YXt8Rh1VY5RNlV9FtdDoN1ViwF6DozDpDqryTinR4m0UKsm5nbPNChTBQrPiuwYet31U6Do9EPvOA5VJ9FtmSzRknFq6vGObbKwdHWj3tY8zQeVF3NlsAoGgcsfFXzmJhgoOKD/t4GAXSHZj3YNNN+A8SrkSyZaFnmK0N13NphQqPFfkqzIMYKxIrG8K1PgFz/AO5SjMNeId3uhVFoWRFgkktq35sR1UFrWnOh8kFbWgfpU4CkKEyGd52j5qBNWxMRKCLEdQ4Uuu6KCRSrXNNcjmnahBFNsUrT0IyT2kOrefeAzOKkytovbnrD5Tj0KigVBLTT9v2TTeRUap3+qAtHeyjftduNxVdMyDm8QuRqMb+P5UqBPOGO0PNAVxCSiuDChxb24+agx5NzeISCKhKQkogBCEIAQhCAEIQgBKkTmC9AdH5DcPyU1JVClRV1lpl8M60Nzmne0kLilQbSyOmEQU9swRKfENh/iLitJI2/Bi3Q4xDj8EU6p5Ctx8V5shRcJVzOvRbQsqE6hfB1H4l7bvpceoU6SDWM1Qa40XnshbcxBuZEOr8rtpvgcOiuJXSlp/zWUORZeB/Kful41XlEuba/Xdsux3FCmMtmXp/mN8aeRQj2FtqpphqrsPSFkajXUa/dkeSvg1dUu3LZpFEJPEJSgxOENMIzYK6NgrvcEhijII0NuZlQRQgEHIrOW3ocHbUCjTm3I9clpjEKIUQt4jd9ktDbyqahPgOMOKDjeDgeIKbCbVwMG47nG/C/gQvV56z4My3ViNB8nDkVg7c0PiwavhViM4e8Omamw9qHYIOtc+uIw6jJPjAtIEXaFBShy4OSCYFNV4/mA2x9+S6tqwhzT7RudBdfiCMQUgjNhmji07OYz8M0wUJFNk+VfRSBAa4Eg6rq3NcaV5E39E2JU6rYjdSmdKGlcSPiQbiSQaOrUZju9TYM8Rc4aw3/ABU4qPqkawZtt30y30+Fc9QUBB2swT9CgLF8rDiCrSK8PUKujybm5VG8JQ8tN+y4Zj7KdBtC7/EFR8zfVBKiiSivIsgyINZh6j1CrJiUczEXbwjRoyEtEFIEQhCAE5uCanlAIhCFJlQhCFFQhKEAICUJEGUoS0Qgz48u5h9Vo9H9KyyjI1XNyd8Q57wmRZcOFDeqabs8i8LPDkVnxfHq0tFa9ocxwIOBC5xWuGK8us21o0A7Dy3eMuoK32j+lEOPRkSjIn+13I5HguiZMLisQngLvElcx4LmAtEG0SgJwCeGoGzNVd4cfJ3j9wmhq6Nhk4BBKe3NFIMwNZuw/wCZuB5jNYWdsSYlXaztkA0Dwbj3xXq8KXIONN4XSPLteC1zQQcQRUKbD28cc2C4GpLYh6Qya5jEdEkVr2hojMGpfqkmlRW/UeKkhbS3NCxTWlmioqS1xJFNza3N7wWXZLubFEGZithg0q2IC4NBvrs3N5ghTo9oLYRq4y76ihqMHauYIPvDko5dDLdz64/BTliCtda2iEVhESTc1zDSlCA9t2IeTtDqsy+YbRzYg26++1tHAjEOr7w8DxQZkRrm6vtmgtIq3i3ItI9VyZBJr7N1QL9X4qfwjFd9QsaHawiMOIFS3k+vulIC2I7YcIVT7pJDBycPXxSDhDj7QIJacyMP6QrKHaA92K2n7heD0CgxYtBqPBqD71A1w5/MOa6ylmR3XwmlwdUVwHGoOCYSpmy2uFWEcxeFUzEq5mIu3jBaOS0fiMIcX6hzaLweCmRZTeEaG2KokK1cSR3BV0xZVcLj5JaG1K0JSnatKpCpVoiEpakQAlSISMqVIhAOCUJqVCjiUJtUIG2xqPx6pph1FaJntD33cugf0+65HV7V05ZwdgL/ADVJGguYb1q3/ZRZuWBF60xy0i4zJZ6I6WNA9lMPOOw914A+Vxx6rcOhBwqM8CMCvFpqULDwVvo5pVFliGnbh5sJw4tOXLBdOObmywemCXduXdktvK42TasKYZrwnV3j4mncRkp4WzKzRrIIGS6AJQnAI0RAEuqnAJwCAZqKBaliwY4Aiw2uphXEdRerOiWiQeXW/otNw2lrIpdLt1nBoqNUYkezaNrp4Lno9ZsrNtMOLMExv9OrQxwp8riT7QftOHBeqlirDo9Le09r7FmvjrUzGfPilo9vMpnRKbgxNWGNeuDmEUI3PacORqFay2grnAGK4QzW9sO8dK+6fJehug0yu4JghI0Ns7KaOQIYADNbVwL9ojlu5KY6WyAVlMuZDFYj2sHE3nkM+iztqaXQIfuNLjvdsjoMT4BFshyWpTpOuSrp/wBjC/zIjWn5a1d/SL1RRLZnpx2rLsiObhSE3Ub/ADRMfEhWVmfppMP2pmK2EDi1m2883YV6lT5/D8ddqSe0hhg0hw7vmfd4NF/mocpIzs2f8KHEc0501YfiaA+JXqtlaGSMvQiEIjh8UXbPQG4dAr0k0o0UHgFNt/T9fjzSzv03fQGZjBv7Yd5/qN3kr2V0dk5f3IQc75n7TvPDotQ6BXE+Cb/0wGSNHa880usSLMarobBVtcSG7JGHisFOyUSE7ViMLTxz5HA9F71El1V2nZcOK0siMDgcj9RuPEI0NvEULVW/odEhVfBq9ny/G3/kPNZUhIwhCEEVCRCRnISVQg9ta1wySEjv84cksKGPH67ikLb+XfYXFLHdZXQnejXpu4LmK/nHvkntbXFVtGnOIwOGCppyzs2+C0AhbsUwtB5q8crOk5SXtmZGeiQHh8Nxa4Zj6HeOBXpmjGmEOPSHFoyLgMmPPAnA8D0WKnbPDgTgclRxYTmG9b4cnxz58eu3voCeAvL9FtOHwqQ5ir4eAdi9g/8AocMfovTJKaZFYHw3BzTgR3ceC3mW2Fx07AJwCAE8BMiAJaJTvy3qnntJ5aHXb1zuh7X+73fNFsnZyWriibFiNaNZzg0DNxAHiVgLQ0/c46kFoBNwDB7SIeXw+S4y9gWpOEOc32TT8cw4l9ODMRyICi5/FTD609o6Wy8MHVJfy2WdXO9AVlprTSPHd7OWY5x+WC0k9XUJ6gBaOzf03lmkOmYj5h24ktZ0aDXoTRa2Tl4cJupBhtY0fCxoA8lNtvav+Z081k9C7QmDrR3tgNONTrxTzofULTWVoBIwdp7THf8ANFNR/Rh41WqoTilDB/dKQrlXKGA0BrGgAYBoAASlhOJXaiq7St+WgVD4gLh8DNp1eIFzf5qKtEnCGNy5zUdkNpfEe1jRi55DWjqVgNINPIurWCWwmElpuD44NKi69jc8nLFxJyPMvq1sSK/JzyXuHKtzByoE9aD020dOJZlfZB0U/N7kP+t15HFoKprE06fGmmQXNYWxHaoEMOq24mpcTtYX3C5U9m6AzMY60d2qN2J8MAt5o1orClCXMqXEUJN5p6IC3exR4kJTnNXJzUBUx4CymkOikONVzdiJ8wFx/iGfPFbuJDUSNBS0crw207LiwHasRtNxxa7kc1Cova5+zmRGlr2hwOIKwlt6GObV0A6w+Q+9/Kc+R81OlMehdIsEtJa4EEYgihHMFc6IKwIQhAbCmVLvGne9NI79DRNYTWvl9vt4LrdSmW/vLBed09TsjW1r32UrW/n87+aa/wAhv3ceC6db+8funMk3HZACDQnlv/Ke4Vz/ALeqaRdh36c0rDfj3x+6raLL0fq3UIu34qHNSYcPT1U/WyRqDnTmnL79F+e2RnJEsNRePopVg6QRpV+tDdcfeab2O/iHqL1onwARhz5Kom7FBNW47lvjyfWGXH8biU/UGE5tXQXg/sLXDxJCiWl+odBSGxrOLzru/pFw61WGZY5repb4b5TUjwTR7XC+45VoeBwK0/0/Ns/8v3S/hytqT14hv1D8cc+zhjiGeoBV/Z36aMxm5h8T/wAcPYZyJxPMUWys+d9tDZEbSj2tdjcKipHMKUIe8qme6hWZZctLDVl4LGcWjaPN2J6lTto8E5opglVaI0QxzTgEErCae6YxJaJDhQS0BzXF7hRzwQQAGg3DqOVKIDazU1Dht1oj2sbvcQByvxKzFq6dwYd0Nut+5+wwdDtHlQc1gYEOfnH6zGPv/wBSIST0c7LgFprL/Tmp15mIXHMD/kfSifoK209L4kU6oc+JUCjIdYcOtL60q57b8Ku6LjA0dnZqms1sKGMABqDwG0epHJelWbYMCCP8OG0caXnmc1ZBoRsmEsr9N4DAPauL8yMAT0vK1slZUKEKMY1oG4AKekSM3VQU5ImRhCY5q6kJpCAjuauT2KUQubmoCDEhKJFl1auYuT4aRstathwowpEYDuODhycL1ibX0Oisq6CfaN+U0Dx6O8uS9XiQVFiy6WjleFvhkEgihGINxHMFC9qdJAnAeCEtK3HnbTv9bvuka2/G/dzzHd/NRJOYDhdTjX1Upr+o7x7vXHlHZjkmQ6Ebru+iZQjA/hNYQTxBreLj1Xdprz3faufBZdVt3DgSb/A+vJNczx+vI/dNLewusKhF9ALr93EcOCJ6K+zYda99jkuwPl06HcVzfj32RwSiuXf35Kv6j+OlaVp9e6J2p078k3W3Y8PQn6J99Me+8kyR4jCAaXqitWbdQtIuK05b3koc9JNdleVphmjPBTaMaTxpN+tDNWE7cN3uOHHc7c4ea9t0ft2DNw/aQjh77D7zDucPocCvCLQstzLwE2xbYjSsURITi1w8CM2uGbeC6cct9ObLH6+jUKg0T0pgzrNmjYrRtw63j9zfmb9M1fq2dmgQq2YsGXfEEV8JjnjBxAJVkhANhwmtFAAOSehImRUiEIAQhCARCEIBCmlOQgGEJhC6EJCEByLVzLV3ITSEBHcxcnw1KLU0tQaEYSFJJG8eKEB87QYpaahXcnMh4uuOY7xBVCnMeQahY5Y7a45aaQCh3jvuqlsI337z5A8eKqZKe1rrg7vuikxHXXHHELmyx/K6sM/i0z3b+PG7AprW36wv8ufJQoEzUBpv+n4U+DE1hQ44Xi80y4FZ2XFpuXo4vacia4d58k0MO6t3dPsnRQ2oyrkbr+HFLDAF1aHdx313pbPRGxOB9fP6G9dAa8d3foUj4VTdQ3UJGfTMJ+o4Y+Iv/uPNVtGhDx7xGX4K6Namkg7r8xf/AHHmnN454HEd+aAZFgBwwCo7UsTNoWhFa/b1TyO+CrHKypyxljBQIsWXiBzS5jmmocLiDwK9f0I04ZNAQoxDI+RwbE5bncM8twyFo2Y2IMAsnOSL4LqitAccwunDPbnzw0+jkVXmehX6hg0gzjuDYx+kT/l4716U1wIqDUHAjMeq2lYWaOQhCZBCEIAQhIgBCEIASJUiARIU5IUAwpCok5akOHW+p3D1OSx9raZE1EIF3CHh/NE+1VFzkVMbWvm5+HD9437heVkbb0za2rWYjFrNp38zsG/VZ+JCmZgHWdqtzayoH8xO07u5Ok5FraAAVGeANMlleS3ptjxSdoz7WmXHWDGX/NrOPU1FfBCnvlTXIePohZ+VbeGPx50hPe1MXQ5aUGitrPnA65xofry4qoQEssdqxyuLSPYMvLu4qTLRbr6V3ndxVPZs6CdV+OR38FaEVvp/ffzXPlj+V045b9xYtGsL8cPt14pj33U8ziK5Huijsi055faiklhxdQV8xx4LCzTaXbrDdTkOq6iNTHA7uO9cGOLeWB9Kn1XVtN1x+E5ckjPiQ92O7f3vQ0j7/kbuKRjqXjD6LrE33Vy73py1NkN1u8/yF1Y7DOoXFuN48e7k8G+vfVUh3bTvFco8q1zb80gdTNPQGTtiwy060PDcrLQ7TiLKEQ4tXwfl+JnFhP8A64clcvZUfdUVr2GHDWbcV0Ycn1hlx/Hs1mWlCmIYiQXh7TmMjuIyPBS1882NbUxJRdaG4j5mm9rhuIz5r2XRXSyBOt2TqxQNqGTfzafiC6JXPcdNChIhUkqRCEAIQuUeYawVc4BI3VI4gYrP2ppRDhitQBkXmngMSshP6URYx1YTSf3PqG9GC89aKLySKxwtbqft2FDBNQaYmoDRzcbljrT0xfEJbBBdyq1nji7pcq2HZzojgYzy45B1zR/C0XAq0gycNoA1QK55/np4LK8lracUipElFi0Mw86vyi5n9I+p8VcS8ixo1QL+OHQ4Lo0EGhvG8d3ro247Ju3Hf6LKxrL8R6OabgeOf9wl/wCnBvIywy5hSBFA/P3SF4p2exx80wrnyb63PNOVUKU5zc6V5oT2HlD8FyCVC6Y5cuwhCEgFb2XaGDHX7j6FCFOclisLZVrFG7v8rtKiuJu80iFy3p1ztP12tpmiK8G+lKbu8EIWMjWnNbQ4n+6kN1aYHxSITKm6tc+RP0Ka0UPfZCEKp8TY6BvD7jkU7VpxHokQr0jft3ZDrij2RF1PyhCCVFqWO2ICQB3uWSiMiS8QOa4tc01a5poR4IQtuLK70z5JNbem6GfqEIpbBmhR5oGxGi5xy1gMDxw5L0IFCF0SubKCqjTU+yH7xPIBIhGV1Ck3WctzS1sJtSdQZUBLj6BYub0jmI5PshqD5nEOf0yHmhCxytb4YwkpYpeREc4udmXGp81cSwaygIBBwOf4QhZd9tr6T4kMECl44/dcDDp033074JEIhU+FGBNKUPiClisoQQbz4+OfVCE76pT24xI4OIvyIzKHi68078kIQowtG6qEIRsaf//Z" align="left" style="margin-left: 75px; margin-top: 25px" width="40%" height"40%">
+					<div id="bambu-benefits-box4">
+						<font size="6" color="#000">
+							💻 Innovative Technology<br>
+								<h1><font size="4">• Bambu Bunny has a high-quality 360 degree field of vision and sensors on all sides to detect movement.</font></h1>
+								<h1><font size="4">• Whenever possible, Bambu is innovatively creating recycled plastic to reduce pollution and waste.</font></h1>
+								<h1><font size="4">• 24/7 customer support for any questions or concerns.</font></h1>
+								<h1><font size="4">• Rechargeable batteries up to 3 days of use.</font></h1>
+								<h1><font size="4">• Low and affordable cost of $1,200.</font></h1>
+						</font>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bambnut-container-ai">
+			<br><hr><br><br><br>
+		</div>
+		
+		<div class="bambu-container1">
+			<div class="row" align="left">
+				<h1><b><font size="15">Advanced Components.</font></b></h1>
+				<h1 style="padding: 0 0 0 50px"><font size="7">Never seen before technology</font></h1>
+				<img class="roundimg" src="./images/camera-left.jpg" alt="Source: data:image/jpeg;base64,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" align="right" style="margin-RIGHT: 25px; margin-BOTTOM: 15px; margin-TOP: 100px" width="40%" height"40%">
+								
+				<div class="bambu-container" align="left" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+					<div id="bambu-emotion-box">
+						<font size="6" color="#000">
+							🐰 Bunny Design<br>
+								<h1><font style="padding: 0 0 0 15px" size="4">A cuddly, warm-hearted bunny garners a comforting and trusting atmosphere for the young ones.</font></h1>
+							😩 Face ID<br>
+								<h1><font style="padding: 0 0 0 15px" size="4">Protected to secure the personal privacy of users.</font></h1>
+							🤢 Emotion Sensor<br>
+								<h1><font style="padding: 0 0 0 15px" size="4">Bambu is able to powerfully empathize with user’s emotions and mimic their actions to help someone in need.</font></h1>
+							😥 Stress-relieving<br>
+								<h1><font style="padding: 0 0 0 15px" size="4">Bambu can sense when something with the user is wrong and change its actions to help the user feel more comfortable.</font></h1>
+							😊️ Expresses Realistic Emotions<br>
+								<h1><font style="padding: 0 0 0 15px" size="4">Fully functional expressions which allows for a friendlier and warmer aura.</font></h1>
+						</font>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bambnut-container-ai">
+			<br><hr><br><br><br>
+		</div>
+
+		<div class="bambu-container3">
+			<div class="row" align="right">
+				<h1><b><font size="15">Assistance.</font></b></h1>
+				<h1 style="padding: 0 50px 0 0"><font size="7">Optimized to be the best</font></h1>
+				<img class="roundimg" src="./images/teaching.jpg" alt="Source: http://allhands.coastguard.dodlive.mil/files/2013/08/PIE-at-MSU-Galveston.jpg" align="left" style="margin-LEFT: 75px; margin-BOTTOM: 15px; margin-TOP: 75px" width="30%" height"30%">
+								
+				<div class="bambu-container" align="right" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+					<div id="bambu-assistance-box" align="left">
+						<font size="6" color="#000">
+							🔌 Sensors<br>
+								<h1><font style="padding: 0 0 0 15px" size="4">Multiple sensors allow bambu to work efficiently and easily, with no task it is unable to complete.</font></h1>
+							💨 Movement<br>
+								<h1><font style="padding: 0 0 0 15px" size="4">Bambu moves with two feet and can be remote controlled or automatic.</font></h1>
+							📷 360° Field of View<br>
+								<h1><font style="padding: 0 0 0 15px" size="4">Bambu has multiple detection “eyes” which allows it to see in all directions.</font></h1>
+							👨‍🏫 Educational Teacher<br>
+								<h1><font style="padding: 0 0 0 15px" size="4">With the help of our programmers, Bambu was programmed to learn many subjects and can help when a child has trouble with work.</font></h1>
+							🔊 High-Definition Speakers<br>
+								<h1><font style="padding: 0 0 0 15px" size="4">Bambu comes fully equipped with high definition speakers to display loudly and clearly.</font></h1>
+						</font>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bambnut-container-ai">
+			<br><hr><br><br><br>
+		</div>
+
+		<div class="bambu-container4">
+			<div class="row" align="center">
+				<h1><b><font size="15">And Much More.</font></b></h1>
+				<!--<h1><font size="7">features that don't suck</font></h1>-->
+				<img class="roundimg" src="./images/batteries-cropped.jpg" alt="Source: https://cdn.pixabay.com/photo/2016/09/23/04/51/battery-1688883_960_720.jpg" align="right" style="margin-RIGHT: 150px; margin-BOTTOM: 15px; margin-TOP: 75px" width="20%" height"20%">
+								
+				<div class="bambu-container" align="left" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+					<div id="bambu-other-box">
+						<font size="6" color="#000">
+							🏕️ Environmentally Sustainable<br>
+								<h1><font style="padding: 0 0 0 15px" size="4">Bambu is made from recyclable materials which can help the environment.</font></h1>
+							🔥 Inflammable<br>
+								<h1><font style="padding: 0 0 0 15px" size="4">Technology allows Bambu to be fire-resistant incase any situation occurs.</font></h1>
+							🌊 Water Resistant<br>
+								<h1><font style="padding: 0 0 0 15px" size="4">Spilling liquids on Bambu is no problem.</font></h1>
+							🔋 Rechargeable Battery<br>
+								<h1><font style="padding: 0 0 0 15px" size="4">Bambu comes with a long-lasting rechargeable battery to be able to rest up and fully function.</font></h1>
+						</font>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<footer id="bambnut-bottom-foot" role="contentinfo" style="background: #efefef;">
+		<div class="bambnut-container">
+			<div class="row row-pb-md">
+
+				<div class="col-md-10">
+					<div class="gtco-widget">
+						<h3>About SHS</h3>
+						<p>Seminole High School is a comprehensive public high school enrolling approximately 3200 students in grades 9 through 12. The school offers two magnet programs, the International Baccalaureate (IB) and Academy of Health Careers, plus the traditional comprehensive high school program which offers remedial, standard, honors, gifted, and Advanced Placement classes.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	</div>
+
+	<div class="bambnut-TOP-GO js-top">
+		<a href="#" class="js-gotop"><font size="6">⬆</font></a>
+	</div>
+	
+	<script src="js/jquery.min.js"></script>
+	
+	<script src="js/jquery.easing.1.3.js"></script>
+	
+	<script src="js/bootstrap.min.js"></script>
+	
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<script src="js/main.js"></script>
+
+	</body>
+</html>

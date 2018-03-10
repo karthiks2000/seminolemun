@@ -1,0 +1,1151 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Bambu &mdash; STEM</title>
+	<link rel="icon" 
+	type="image/png" 
+	href="./images/bambu/bambu.png">
+	<!-- to allow mobile view, kinda buggy tho so ima keep it off for now ;/-->
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+	<meta name="description" content="Bambu Bunny's website." />
+	<meta name="keywords" content="bambu, robot bunny, bambubunny" />
+	<meta name="author" content="Michael Vuolo" />
+
+	<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+	
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/modernizr-2.6.2.min.js"></script>
+
+	<style>
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.2); }
+
+#media-box1 {
+    border-radius: 25px;
+    background: #fafafa;
+    padding: 20px; 
+    width: 750px;
+	height: 375px;   
+	margin-right: 750px;
+}
+
+#media-box2 {
+    border-radius: 25px;
+    background: #fafafa;
+    padding: 20px; 
+    width: 750px;
+	height: 375px;   
+	margin-left: 750px;
+}
+
+#media-box3 {
+    border-radius: 25px;
+    background: #fafafa;
+    padding: 20px; 
+    width: 750px;
+	height: 285px;   
+	margin-right: 750px;
+}
+
+#media-box4 {
+    border-radius: 25px;
+    background: #fafafa;
+    padding: 20px; 
+    width: 750px;
+	height: 365px;   
+	margin-left: 750px;
+}
+
+#media-box5 {
+    border-radius: 25px;
+    background: #fafafa;
+    padding: 20px; 
+    width: 750px;
+	height: 285px;   
+	margin-right: 750px;
+}
+
+#media-box6 {
+    border-radius: 25px;
+    background: #fafafa;
+    padding: 20px; 
+    width: 750px;
+	height: 365px;   
+	margin-left: 750px;
+}
+
+.roundadmin {
+	border-radius: 10px;
+}
+
+.roundimg {
+	border-radius: 15px;
+}
+
+.roundimgsm {
+	border-radius: 5px;
+}
+
+.wrap {
+    width: 100%;
+}
+
+.floatleft {
+	float:left; 
+	color: #f2f2f2;
+	width: 12.5%;
+}
+
+.floatright {
+	float: right;
+	width: 87.5%;
+}
+
+hr { background-color: #afafaf; height: 1px; width: 750px; border: 0; }
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #d9b3ff;
+	min-width: 0px;
+	max-width: 450px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+	</style>
+
+	</head>
+	<body>
+		
+	<div class="bambnut-load-page"></div>
+	
+	<div id="bambuu" style="background: #f2f2f2" >
+	<nav class="stem-nav" role="navigation">
+		<div class="bambnut-container">
+			<div class="row">
+				<div class="col-sm-2 col-xs-12">
+					<div id="gtco-logo"><a href="index.html"><img src="./images/bambu/bambu.png" alt="" style="PADDING-RIGHT: 2px" width="20%" height="20%">Bambu</a></div>
+				</div>
+				<div class="col-xs-10 text-right menu-1 main-nav">
+					<ul>
+						<div class="dropdown">
+						<li><a href="index.html" onclick="home();">Home</a>-</li>
+							<div class="dropdown-content" align="center">
+								<li><a href="#" onclick="home_about();">About</a>-</li>
+								<li><a href="#" onclick="home_pictures();">Pictures</a></li>
+							</div>
+						</div>
+						<div class="dropdown">
+						<li><a href="chapter.html" onclick="chapter();">TSA Chapter</a>-</li>
+							<div class="dropdown-content" align="center">
+								<li><a href="#" onclick="chapter_officers();">Officers</a>-</li>
+								<li><a href="#" onclick="chapter_activities();">Activities</a>-</li>
+								<li><a href="#" onclick="chapter_accomplishments();">Accomplishments</a></li>
+							</div>
+						</div>
+						<div class="dropdown">
+						<li><a href="stem.html" data-nav-section="home">STEM</a>-</li>
+
+						</div>
+						<div class="dropdown">
+						<li><a href="ai.html" onclick="ai();">Artificial Intelligence</a>-</li>
+							
+						</div>
+						<div class="dropdown">
+						<li><a href="bambu.html" onclick="bambu();">Bambu Bunny</a></li>
+							<div class="dropdown-content" align="center">
+								<li><a href="#" onclick="bambu_overview();">Overview</a>-</li>
+								<li><a href="#" onclick="bambu_benefits();">Benefits</a>
+								
+							</div>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+    <script>
+			function home(){
+				window.location.href = "index.html";
+			}
+			function home_about(){
+				window.location.href = "index.html#about";
+			}
+			function home_pictures(){
+				window.location.href = "index.html#pictures";
+			}
+			function chapter(){
+				window.location.href = "chapter.html";
+			}
+			function chapter_officers(){
+				window.location.href = "chapter.html#officers";
+			}
+			function chapter_activities(){
+				window.location.href = "chapter.html#activities";
+			}
+			function chapter_accomplishments(){
+				window.location.href = "chapter.html#accomplishments";
+			}
+			function stem(){
+				window.location.href = "stem.html";
+			}
+			function stem_ib_program(){
+				window.location.href = "stem.html#ib-program";
+			}
+			function stem_health_academy(){
+				window.location.href = "stem.html#health-academy";
+			}
+			function stem_mass_media(){
+				window.location.href = "stem.html#mass-media";
+			}
+			function stem_advanced_placement(){
+				window.location.href = "stem.html#advanced-placement";
+			}
+			function stem_extracurriculars(){
+				window.location.href = "stem.html#extracurriculars";
+			}
+			function ai(){
+				window.location.href = "ai.html";
+			}
+			function ai_history(){
+				window.location.href = "ai.html#history";
+			}
+			function ai_technology_behind_ai(){
+				window.location.href = "ai.html#technology-behind-ai";
+			}
+			function ai_future_uses(){
+				window.location.href = "ai.html#future-uses";
+			}
+			function ai_available_technologies(){
+				window.location.href = "ai.html#available-technologies";
+			}
+			function ai_safety(){
+				window.location.href = "ai.html#safety";
+			}
+			function ai_pros_cons(){
+				window.location.href = "ai.html#pros-cons";
+			}
+			function bambu(){
+				window.location.href = "bambu.html";
+			}
+			function bambu_overview(){
+				window.location.href = "bambu.html#overview";
+			}
+			function bambu_technologies(){
+				window.location.href = "bambu.html#technologies";
+			}
+			function bambu_benefits(){
+				window.location.href = "bambu.html#benefits";
+			}
+			function bambu_buy_now(){
+				window.location.href = "bambu.html#buy-now";
+			}
+	</script>	
+
+	<div id="bambnut-header" data-section="home" class="bambnut-cover header-fixed" role="banner" style="background-image:url(./images/school/redwin.jpg);">
+		<div class="overlay"></div>
+		<div class="bambnut-container">
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0 text-center">
+					<div class="display-t">
+						<div class="display-tc">
+							<h1 class="animate-box" data-animate-effect="fadeIn">STEM Curriculum</h1>
+							<h2 class="animate-box" data-animate-effect="fadeIn"></h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+	<div id="bambnut-content" class="border-bottom">
+
+		<div class="bambu-container1">
+			<div class="row" align="left">
+				<br>
+				<h1><b><font align="center" size="15">🎓 Standard Graduation Diploma Requirements</font></b></h1>
+				<img class="roundimg" src="./images/school/broder-teaching.png" alt="" align="right" style="margin-RIGHT: 50px; margin-BOTTOM: 35px; margin-TOP: 35px" width="30%" height"30%">
+								
+				<div class="bambu-container" align="left" style="PADDING-TOP: 25px; PADDING-BOTTOM: 50px">
+					<ul style="color:#2f2f2f" align="left">
+						<li>English I-IV (or equivalent accelerated course)</li>
+						<li>Math grades 912 (must include Algebra and Geometry)</li>
+						<li>Science credits - must include Biology and three courses must contain a lab component and two equally rigorous courses</li>
+						<li>Social Studies - must include U.S. History, World History, U.S. Government, and Economics with Financial Literacy</li>
+						<li>One Fine/Performing Arts credit</li>
+						<li>Half Personal Fitness and half PE Elective</li>
+						<li>Elective Credits</li>
+						<li>Must include one online course</li></ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="bambu-container2">
+			<div class="row" align="center">
+				<h1><b><font align="center" size="15">Administration 🏫</font></b></h1>					
+				<img class="roundadmin" src="./images/school/Collins.png" alt="" style="margin-left: 0px; margin-top: 35px" width="10%" height"10%">
+				<img class="roundadmin" src="./images/school/Backel.png" alt="" style="margin-left: 20px; margin-top: 35px" width="10%" height"10%">
+				<img class="roundadmin" src="./images/school/Coleman.png" alt="" style="margin-left: 20px; margin-top: 35px" width="10%" height"10%">
+				<img class="roundadmin" src="./images/school/Hennessy.png" alt="" style="margin-left: 20px; margin-top: 35px" width="10%" height"10%">
+				<img class="roundadmin" src="./images/school/Mizzel.png" alt="" style="margin-left: 20px; margin-top: 35px" width="10%" height"10%">
+				<img class="roundadmin" src="./images/school/Wysong.png" alt="" style="margin-left: 20px; margin-top: 35px" width="10%" height"10%">
+				<div class="bambu-container" align="center" style="PADDING-TOP: 35px; PADDING-BOTTOM: 50px">				
+					<p style="color: #2f2f2f" align="center">Dr. Connie Collins, Principal</p>
+					<p style="color: #2f2f2f" align="center">Dr. Michelle Backel, Assistant Principal</p>
+					<p style="color: #2f2f2f" align="center">Mr. Barry Coleman, Assistant Principal</p>
+					<p style="color: #2f2f2f" align="center">Mr. Michael Hennessy, Assistant Principal</p>
+					<p style="color: #2f2f2f" align="center">Dr. Orvie Mizzell-Bullock, Assistant Principal</p>
+					<p style="color: #2f2f2f" align="center">Mrs. Nicole Wysong, Assistant Principal</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="bambu-container3">
+			<div class="row" align="right">
+				<h1><b><font size="15">👨‍💻 Technology Usage</font></b></h1>
+				<img class="roundimg" src="./images/school/technology-usage.png" alt="" align="left" style="margin-RIGHT: 50px; margin-BOTTOM: 15px; margin-TOP: 15px" width="40%" height"40%">
+
+				<div class="bambu-container" align="right" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+					<h4 style="color: #2f2f2f" align="right">Seminole County Public Schools believes technology is a valuable educational tool. All classroom teachers use technology as an instructional tool, such as use of the Internet to access encyclopedias, magazines, the district’s media/library catalog, websites for educational projects, on-line district and state classes also to conduct research in preparation for a project or presentation.</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="wrap">
+
+		<div style="background: #f2f2f2" class="floatleft">
+
+			<!-- | ======================================= TAB SELECTION ======================================= | -->
+
+				<div id="stem-bar" class="stem-bar">
+					
+					<br><br>
+
+					<div id="stem-bar" class="stem-bar-icons">
+							<span id="stem-bar" class="icon">
+								<img id="IB-BUTTON" class="grow" src="./images/school/ib.png" alt="" align="center" style="PADDING-BOTTOM: 15px" width="40%" height"40%">
+							</span>
+							<h3 style="padding: 0 0 125px 0">IB Program</h3>			
+							<span id="stem-bar" class="icon">
+								<img id="HEALTH-BUTTON" class="grow" src="./images/school/health-academy-scaled.png" alt="" align="center" style="PADDING-BOTTOM: 15px" width="75%" height"75%">
+							</span>
+							<h3 style="padding: 0 0 125px 0">Health Academy</h3>
+							<span id="stem-bar" class="icon">
+								<img id="MEDIA-BUTTON" class="grow" src="./images/school/mass-media.png" alt="" align="center" style="PADDING-BOTTOM: 15px" width="50%" height"50%">
+							</span>
+							<h3 style="padding: 0 0 125px 0">Mass Media</h3>
+							<span id="stem-bar" class="icon">
+								<img id="AP-BUTTON" class="grow" src="./images/school/ap.png" alt="" align="center" style="PADDING-BOTTOM: 15px" width="55%" height"55%">
+							</span>
+							<h3 style="padding: 0 0 125px 0">Advanced Placement	</h3>
+							<span id="stem-bar" class="icon">
+								<img id="EXTRA-BUTTON" class="grow" src="./images/school/extracurriculars.png" alt="" align="center" style="PADDING-BOTTOM: 15px" width="55%" height"55%">
+							</span>
+							<h3>Extracurriculars</h3>
+					</div>
+						
+				</div>
+		</div>
+
+		<div class="floatright">
+
+	<!-- | ======================================= DEFAULT TAB ======================================= | -->
+
+	<!-- IB Program -->
+
+	<ibtab id="ibtab" style="display: block">
+
+	<pineapples>
+
+	<div id="ib-program" class="border-bottom" data-section="ib-program">
+
+		<br><br>
+
+		<div class="bambu-container2">
+			<div class="row" align="center">
+				<img src="./images/school/ib.png" alt="" align="center" style="PADDING-BOTTOM: 15px" width="15%" height"15%">
+				<h1><b><font size="15">IB Program</font></b></h1>
+
+				<div class="bambu-container2" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+					<h3 style="color: #2f2f2f" align="center">The International Baccalaureate Program at Seminole High School is an officially recognized affiliate member of the International Baccalaureate Organization. The International Baccalaureate Diploma Program is a demanding pre-university course of study that is designed for highly motivated secondary school students between ages 16 and 19. The program has earned a reputation for rigorous assessment, helping IB diploma holders access the world’s leading universities.</h3>
+				</div>
+			</div>
+		</div>
+		
+
+		<div class="bambu-container1">
+			<div class="row" align="left">
+				
+				<hr><br>
+				<img class="roundimgsm" src="./images/school/curriculum.png" alt="" align="right" style="margin-right: 25px" width="40%" height"40%">
+				<br><br><br><h1><b><font align="center" size="15">✏️ Curriculum</font></b></h1>
+								
+				<div class="bambu-container" align="left" style="PADDING-TOP: 25px; PADDING-BOTTOM: 50px; max-width: 750px">
+					<p style="color: #2f2f2f" align="left">The International Baccalaureate (IB) Diploma program is a rigorous pre-university course of study, leading to internationally standardized examinations. The program is designed as a comprehensive two-year curriculum that allows its graduates to fulfill requirements of many different nations’ education systems.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="bambu-container3">
+			<div class="row" align="right">
+				<br><br>
+				<h1><b><font style="PADDING-RIGHT: 375px" size="15">📒 IB Coordinator</font></b></h1>
+				<img class="roundadmin" src="./images/school/carson-stone.png" alt="" align="left" style="margin-LEFT: 50px; margin-RIGHT: 50px; margin-BOTTOM: 50px; margin-TOP: 15px" width="20%" height"20%">
+
+				<div class="bambu-container" align="right" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px; PADDING-RIGHT: 50px">
+					<h4 style="color: #2f2f2f" align="center">Mr. Carson Stone’s responsibilities include co-managing IB Juniors’ CAS, a component of the IB diploma that requires students to complete creativity, action, and service, registering IB students for Standard Level and Higher Level exams, and meeting with current and potential IB students and parents.</h4>
+				</div>
+			</div>
+		</div>
+
+		<div class="bambu-container1">
+
+			<br><hr><br><br>
+
+			<div class="row" align="center">
+				<img class="roundimg" src="./images/school/ib-community.png" alt="" width="30%" height"30%">
+				<img class="roundimg" src="./images/school/biology-lab.png" alt="" style="margin-LEFT: 15px" width="30%" height"30%">
+				<img class="roundimg" src="./images/school/student-presentations.png" alt="" style="margin-LEFT: 15px" width="30%" height"30%">
+
+				<div class="bambu-container2" align="center" style="PADDING-TOP: 15px; PADDING-BOTTOM: 50px">
+					<em style="color: #2f2f2f; padding-right: 5em; padding-left: 2em" align="center">There is a strong IB community among the students.</em>
+					<em style="color: #2f2f2f; padding-right: 3em" align="center">Biology students are hard at work with hands-on labs.</em>
+					<em style="color: #2f2f2f" align="center">There are various students presentations integrated in classes.</em>
+				</div>
+			</div>
+		</div>
+	
+	</div>
+
+	</pineapples>
+
+	</ibtab>
+
+
+		<!-- | ======================================= TEST TABS ======================================= | -->
+	
+		<!-- Health Academy -->
+
+		<healthtab id="healthtab" style="display: none">
+		
+		<div id="health-academy" class="border-bottom" data-section="health-academy">
+
+			<br><br>
+
+		<div class="bambu-container2">
+			<div class="row" align="center">
+				<img src="./images/school/health-academy-scaled.png" alt="" align="center" style="PADDING-BOTTOM: 15px" width="35%" height"35%">
+				<h1><b><font size="15">Health Academy</font></b></h1>
+
+				<div class="bambu-container2" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+					<h3 style="color: #2f2f2f" align="center">The mission of the Academy of Health Careers at Seminole High School is to afford students a rigorous interdisciplinary instructional program that ensures relevant preparation for entry in the health care industry and to pursue health careers at the post-secondary level upon graduation. The mission is achieved through a strong partnership with the health industry, community, and with institutes of higher learning. The Healthcare system requires many talented individuals to lead the way in health interventions.</h3>
+				</div>
+			</div>
+		</div>
+		
+		<div class="bambu-container1">
+			<div class="row" align="left">
+				<hr><br>
+			
+				<img class="roundadmin" src="./images/school/michael-hennessy.png" alt="" align="right" style="margin-LEFT: 50px; margin-RIGHT: 50px; margin-BOTTOM: 15px; margin-TOP: 50px" width="20%" height"20%">
+				<h1><b><font style="PADDING-LEFT: 285px" size="15">👨‍⚕️ Michael Hennessy</font></b></h1>
+
+				<div class="bambu-container" align="left" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px; PADDING-RIGHT: 50px">
+					<h4 style="color: #2f2f2f" align="center">Mr. Hennessy graduated from the University of Central Florida with a double major in Communications and Education. He went on to attain a Master of Education at the American College of Education. He was first an Intensive Reading Instructor at both Orange County Public Schools and Seminole County Public Schools. Then in 2009, he went on to become a dean of students at Lake Howell. Presently, from 2012, Mr. Hennessy is serving as Assistant Principal at Seminole High, as well as the Academy of Health Careers coordinator.</h4>
+				</div>
+			</div>
+		</div>
+
+		<div class="bambu-container1">
+			<div class="row" align="right">
+				
+				<br><br>
+				<img class="roundimg" src="./images/school/cane.png" alt="" align="left" style="margin-left: 100px" width="25%" height"25%">
+				<br><br><br><h1><b><font align="left" style="PADDING-RIGHT: 175px" size="15">🏥️ Program Features</font></b></h1>
+								
+				<div class="bambu-container" align="left" style="PADDING-TOP: 25px; PADDING-BOTTOM: 50px; max-width: 750px">
+					<ul style="color: #2f2f2f" align="left">
+							<li>Curriculum with health care topics integrated into academic and courses: Rigorous academic preparation for career and college bound students</li>
+							<li>State-of-the-art laboratories: Vital Simulator Manikin, integrating technology with health care scenarios</li>
+							<li>Award winning faculty with health care experience and credentials</li>
+							<li>Intensive student supports such as Parent/Student workshops in college admissions</li>
+							<li>CPR Certifications & First Aid Training</li>
+							<li>Hands on clinical experience in area hospitals, medical offices, emergency medicine facilities, veterinary health care sites including the Central Florida Zoo</li>
+							<li>Career exposure through job shadow & clinical experiences</li>
+					</ul>
+				</div>
+			</div>
+			<br>
+		</div>
+
+		<div class="bambu-container1">
+
+			<br><hr><br><br>
+
+			<div class="row" align="center">
+				<img class="roundimg" src="./images/school/cpr.png" alt="" width="20%" height"20%">
+				<img class="roundimg" src="./images/school/ambulance.png" alt="" style="margin-LEFT: 15px" width="20%" height"20%">
+				<img class="roundimg" src="./images/school/health-scrubs.png" alt="" style="margin-LEFT: 15px" width="20%" height"20%">
+				<img class="roundimg" src="./images/school/health-learning.png" alt="" style="margin-LEFT: 15px" width="15%" height"15%">
+			</div>
+
+			<br><br>
+
+		</div>
+	
+	</div>
+		
+
+	</healthtab>
+
+		<!-- Mass Media -->
+
+		<mediatab id="mediatab" style="display: none">
+
+		<div id="mass-media" class="border-bottom" data-section="mass-media">
+
+		<br><br>
+
+		<div class="bambu-container2">
+			<div class="row" align="center">
+				<img src="./images/school/mass-media.png" alt="" align="center" style="PADDING-BOTTOM: 15px" width="12.5%" height"12.5%">
+				<h1><b><font size="15">Mass Media</font></b></h1>
+
+				<div class="bambu-container2" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+					<h3 style="color: #2f2f2f" align="center">The Mass Media CAPE Academy at Seminole High School has expanded to include Web & Digital Design, Microsoft Business Applications, Programming, Video Production, Newspaper and Yearbook. The purpose of this website is to assist parents and students to review these outstanding programs and choose the course path that is the most beneficial for the student’s future careers and education. All courses offer either Adobe or Microsoft industry certifications. Many other benefits to these programs include potential scholarships, college credits, certifications, designations, student portfolio development, as well as advanced career training.</h3>
+				</div>
+			</div>
+		</div>
+
+		<div class="bambu-container " data-animate-effect="fadeInLeft" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+			<img class="roundimg" src="./images/school/veronica-sarmiento.png" alt="" align="right" style="margin-right: 350px; margin-top: 75px" width="10%" height"10%">
+				<div id="media-box1" >
+					<font size="6" color="#000">
+						📷 Veronica Sarmiento<br>
+							<h1><font size="4">Veronica has an extensive amount of experience and training in art, technology and design, She has ten years of teaching experience as well as industry experience in graphic design and project management. When with Burdines/Macy’s she worked with the advertising department to provide software support and troubleshooting for the entire department including the in-house digital photography studio, image library, pre-press department, in-house broadcasting department, and administrative users such as account executives and media buyers.</font></h1>
+					</font>
+				</div>
+		</div>
+
+		<div class="bambu-container " data-animate-effect="fadeInRight" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+			<img class="roundimg" src="./images/school/renee-dubber.png" alt="" align="left" style="margin-left: 350px; margin-top: 100px" width="10%" height"10%">
+				<div id="media-box2" >
+					<font size="6" color="#000">
+						Renee Dubber 👨‍🏫<br>
+							<h1><font size="4">Renee is a national Board Certified teacher who has been teaching in the Florida Public School System for the past 17 years working primarily with Title 1 schools and at risk youth. Prior to teaching she worked in corporate marketing and has continued to do contract work for various businesses while teaching. She is a certified Microsoft Office Specialist and brings a great deal of technology experience to the program. Her extensive work with at risk youth, combined with her teaching experience and numerous certifications, make her an asset to the Mass Media CAPE Academy.</font></h1>
+					</font>
+				</div>
+		</div>
+
+		<div class="bambu-container " data-animate-effect="fadeInLeft" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+			<img class="roundimg" src="./images/school/kevin-kelley.png" alt="" align="right" style="margin-right: 350px; margin-top: 50px" width="10%" height"10%">
+				<div id="media-box3" >
+					<font size="6" color="#000">
+						📧 Kevin Kelley<br>
+							<h1><font size="4">Kevin is a professional musician who brings a great deal of experience with graphics and print media to the team, he owned a direct mail marketing company and has a vast amount of technology experience with web design, graphics and programming. His varied experience in the arts and business, as well as teaching experience, is an asset to the program.</font></h1>
+					</font>
+				</div>
+		</div>
+
+		<div class="bambu-container " data-animate-effect="fadeInRight" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+			<img class="roundimg" src="./images/school/kevin-strileckis.png" alt="" align="left" style="margin-left: 350px; margin-top: 75px" width="10%" height"10%">
+				<div id="media-box4" >
+					<font size="6" color="#000">
+						Kevin Strileckis 💻<br>
+							<h1><font size="4">Kevin is a first year teacher, recently graduated from the University of Central Florida. He studied English and computer science, and has been programming for eight years. He combines these subjects, often working on linguistics projects. He also usually designs all assignments for his students. He considers this an important way of keeping in practice in the various languages he programs in (C++, Java, C#), and so to have complete control over and knowledge of what his students are learning and, for the larger projects, to show them what is possible with programming knowledge.</font></h1>
+					</font>
+				</div>
+		</div>
+
+		<div class="bambu-container " data-animate-effect="fadeInLeft" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+			<img class="roundimg" src="./images/school/mike-smith.png" alt="" align="right" style="margin-right: 350px; margin-top: 50px" width="10%" height"10%">
+				<div id="media-box5" >
+					<font size="6" color="#000">
+						📺️ Mike Smith<br>
+							<h1><font size="4">Mike is a career professional in the television industry. His extensive industry accomplishments include being a producer, editor, news cameraman, chief photographer and videographer. He primarily worked for ABC and CBS affiliates throughout the county. He has developed an outstanding program for our SHS students for over fifteen years that combines his expertise and his passion for education.</font></h1>
+					</font>
+				</div>
+		</div>
+
+		<div class="bambu-container " data-animate-effect="fadeInRight" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+			<img class="roundimg" src="./images/school/ginger-schmaus.png" alt="" align="left" style="margin-left: 350px; margin-top: 75px" width="10%" height"10%">
+				<div id="media-box6" >
+					<font size="6" color="#000">
+						Ginger Schmaus 📋<br>
+							<h1><font size="4">Ginger holds her degree in journalism from the University of Central Florida and is certified in English grades 6-12, Business Education, and Elementary Education K-6. She advises the student-run publication, The Seminole Newspaper. She brings to Seminole High 20 years of real-life experience as an editor in the book publishing industry. Her expertise is in content editing, copy editing, research, proofreading, and the final stages of publication for hard print material. She loves to teach and see students reach their potential.</font></h1>
+					</font>
+				</div>
+			</div>
+		</div>
+
+		</mediatab>
+
+		<!-- Advanced Placement -->
+
+		<aptab id="aptab" style="display: none">
+			
+		<div id="advanced-placement" class="border-bottom" data-section="advanced-placement">
+
+			<br><br>
+
+		<div class="bambu-container2">
+			<div class="row" align="center">
+				<img src="./images/school/ap.png" alt="" align="center" style="PADDING-BOTTOM: 15px" width="12.5%" height"12.5%">
+				<h1><b><font size="15">Advanced Placement</font></b></h1>
+
+				<div class="bambu-container2" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+					<h3 style="color: #2f2f2f" align="center">The College Board’s Advanced Placement (AP) program is a nationwide program consisting of over 30 college level courses and exams in subjects ranging from art to statistics offered at participating high schools. Studies have shown that students, who complete a solid academic core, including advanced courses, are more likely to be successful in college. Many school counselors have found that AP courses provide the challenging content necessary to engage all types of learners.</h3>
+				</div>
+
+				<img class="roundimg" src="./images/school/tutoring-use.png" style="margin-left: 35px; margin-top: 15px" alt="" width="30%" height"30%">
+				<img class="roundimg" src="./images/school/laptop-use.jpg" style="margin-left: 35px; margin-top: 15px" alt="" width="30%" height"30%">
+
+			</div>
+		</div>
+
+		<div class="bambu-container2">
+			<div class="row" align="center">
+				<br><hr><br>
+			
+				<h1><b><font size="15">🍎️ Sample Courses</font></b></h1>
+				<div class="bambu-container" align="left" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px; PADDING-RIGHT: 50px">
+					<ul style="color: #2f2f2f" align="left">
+						<h2>Math</h2>
+						<li>AP Calculus: AB (Calculus 1) topics include limits and continuity, derivatives and integrals, and their applications. BC (Calculus 1 and 2) includes all AB topics with additional topics in sequences and series, polars, parametrics, and vectors.</li>
+						<li>AP Statistics: This course introduces students to the major concepts and tools for collecting, analyzing, and drawing conclusions from data. The four broad conceptual themes are exploring data, planning a study, anticipating patterns in advance (simulation), and statistical reference.</li><br>
+								
+						<h2>Science</h2>
+						<li>AP Biology: This course is a first year college biology course. The content includes cell biology, biochemistry, classical genetics, molecular genetics, evolution, ecology, taxonomy, and the anatomy and physiology of plants and animals.</li>
+						<li>AP Chemistry: The purpose of this course is to provide an in-depth quantitative study of chemical principles, concepts, and experimental Methods. Twenty-five percent of instructional time is devoted to inquiry based laboratory investigations. Students ask questions, make observations and predictions, design experiments, analyze data, and construct arguments in a collaborative setting, where they direct and monitor their progress.</li>
+						<li>AP Physics C with Mechanics: AP Physics C is a calculus-based, university level physics course that covers classical mechanics (kinematics, dynamics, rotation, gravitation and oscillation). Approximately 25 percent of the instructional time will be spent in hands-on laboratory work, with an emphasis on inquiry-based investigations that provide students with opportunities to apply the science practices.</li>
+						<li>AP Environmental Science: This is a college level course which provides the student with the scientific principles, concepts, and methods required to understand the interrelationships of the natural world, to identify and analyze environmental problems both natural and human-made, to evaluate the relative risks associated with these problems, and to examine alternative solutions for resolving and or preventing them.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="bambu-container1">
+
+			<br><hr><br><br>
+
+			<div class="row" align="center">
+				<img class="roundimg" src="./images/school/class.png" alt="" width="30%" height"30%">
+				<img class="roundimg" src="./images/school/presentating.png" alt="" style="margin-LEFT: 15px" width="30%" height"30%">
+				<img class="roundimg" src="./images/school/mack.png" alt="" style="margin-LEFT: 15px" width="25%" height"25%">
+			</div>
+
+			<br><br>
+
+		</div>
+		</div>
+
+		</aptab>
+
+		<!-- Extracurriculars -->
+
+		<pumpkins id="pumpkintime" style="display: none">
+
+		<div id="extracurriculars" class="border-bottom" data-section="extracurriculars">
+
+		<br><br>
+
+		<div class="bambu-container2">
+			<div class="row" align="center">
+				<img src="./images/school/extracurriculars.png" alt="" align="center" style="PADDING-BOTTOM: 15px" width="8%" height"8%">
+				<h1><b><font size="15">Extracurriculars</font></b></h1>
+				
+				<div class="bambu-container2" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
+					<div class="row" align="center">
+						<div class="stem-bar-icons" style="padding: 0 0 0 150px">
+							<div class="col-md-2">
+								<h1 style="padding: 0 0 0 15px" class="grow noselect"><font id="SCIENCE-BUTTON" size="15">⚗️</font></h1>
+								<h3><font size="6">Science</font></h3>
+							</div>
+							<div class="col-md-2">
+								<h1 style="padding: 0 0 0 0" class="grow noselect"><font id="TECHNOLOGY-BUTTON" size="15">💡</font></h1>
+								<h3><font size="6">Technology</font></h3>
+							</div>
+							<div class="col-md-2" style="padding: 0 0 0 65px">
+								<h1 style="padding: 0 0 0 20px" class="grow noselect"><font id="ENGINEERING-BUTTON" size="15">🛠️️</font></h1>
+								<h3><font size="6">Engineering</font></h3>
+							</div>
+							<div class="col-md-2" style="padding: 0 0 0 125px">
+								<h1 style="padding: 0 0 0 0" class="grow noselect"><font id="MATH-BUTTON" size="15">📏</font></h1>
+								<h3><font size="6">Math</font></h3>
+							</div>
+							<div class="col-md-2" style="padding: 0 0 0 75px">
+								<h1 style="padding: 0 0 0 0" class="grow noselect"><font id="OTHER-BUTTON" size="15">🚪</font></h1>
+								<h3><font size="6">Other</font></h3>
+							</div>
+							
+						</div>
+
+						<hr><br>
+
+					</div>
+				</div>	
+
+				
+				</div>
+			</div>
+
+		
+
+		<!-- | ======================================= SCIENCE ======================================= | -->
+
+		<!-- Science -->
+
+		<bananas>
+
+		<div class="bambu-container2">
+			<div class="row" align="center">			
+				<h1><b><font size="15">⚗️ Science</font></b></h1>
+				<div class="bambu-container" align="left" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px; PADDING-RIGHT: 50px">
+					<ul style="color: #2f2f2f" align="left">
+						<h1>Science National Honor Society 🔬</h1>
+						<p><b>Ramsey Robinson:</b>  NHS is a prominent scientific organization that will engender a new group of young thinkers who will be the future of industry, research, and scientific exploration for America. The Seminole High Science NHS is organized into 8 distinct scientific committees which are as follows: chemistry, biology, computer science, physics, psychology, environmental science, health science, and STEMpowerment. Science NHS members have numerous opportunities to explore their scientific endeavors through these committee workshops held throughout the year. Members can learn to program a mobile app, conduct a forensics lab, practice how to do hands-only CPR, and be apart of a short term memory loss experiment. Science NHS embraces all there is to offer in the field of science. To uphold good standing within the chapter, all members are required to document and submit to the secretaries: 90 minutes of science tutoring, 4 hours of science experience, and 10 hours of community service.</p>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="bambu-container1">
+
+			<div class="row" align="center">
+				<img class="roundimg" src="./images/school/snhs-shirts.jpg" alt="" style="margin-BOTTOM: 15px" width="25%" height"25%">
+				<img class="roundimg" src="./images/school/health-room.png" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="35%" height"35%">
+				<img class="roundimg" src="./images/school/chem-lab.png" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="25%" height"25%">
+				<img class="roundimg" src="./images/school/chem-prep.png" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="22%" height"22%">
+				<img class="roundimg" src="./images/school/chem-working.png" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="20%" height"20%">
+				<img class="roundimg" src="./images/school/outside.png" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="20%" height"20%">
+			</div>
+
+			<br><br><br><hr><br>
+
+		</div>	
+		
+		<div class="bambu-container2">
+			<div class="row" align="center">			
+				<div class="bambu-container" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px; PADDING-LEFT: 50px">
+					<ul style="color: #2f2f2f" align="center">
+						<h1>🔭 Science Research & Competition Club</h1>
+						<p><b>Amber Morgan:</b> After finalizing their research for the past three months, students in the Experimental Science class will present their projects to a series of judges at the Seminole County Regional Science and Engineering Fair. Around twenty Seminole High School students will attend the Seminole County Science and Engineering Fair. Categories include: Animal Sciences, Biochemistry, Chemistry, Energy and Transportation, Medicine and Health Sciences, Physics and Astronomy, and many more.</p>
+					</ul>
+				</div>
+			</div>
+
+			<hr><br>
+
+		</div>
+
+		<div class="bambu-container2">
+			<div class="row" align="center">			
+				<div class="bambu-container" align="right" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px; PADDING-LEFT: 50px">
+					<ul style="color: #2f2f2f" align="right">
+						<h1>👩‍⚕️ Health Occupations Students of America</h1>
+						<p><b>Mary Stump:</b> purpose of the HOSA organization is to develop leadership and technical HOSA skill competencies through a program of motivation, awareness and recognition, which is an integral part of the Health Science Education instructional program. The Competitive Events Program is designed to motivate HOSA members and provide a system for recognizing the competencies developed by members through Health Science and Biomedical Science class instruction, related job training, and HOSA related activities. Every Thursday, HOSA meets in the Health Academy teaching theater. During this meeting, each member breaks into the competition group they chose and practice begins. For example, the CPR teams go over scenarios and review first aid techniques.</p>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="bambu-container1">
+
+			<div class="row" align="center">
+				<img class="roundimg" src="./images/school/hosa-sitting.jpg" alt="" width="25%" height"25%">
+				<img class="roundimg" src="./images/school/hosa-standing.jpg" alt="" style="margin-LEFT: 15px" width="25%" height"25%">
+				<img class="roundimg" src="./images/school/hosa-outside.jpg" alt="" style="margin-LEFT: 15px" width="30%" height"30%">
+				<img class="roundimg" src="./images/school/hosa-baby.jpg" alt="" style="margin-LEFT: 15px" width="15%" height"15%">
+			</div>
+
+			<br><br>
+
+		</div>
+
+	</bananas>
+
+	</pumpkins>
+
+	<!-- | ======================================= TECHNOLOGY ======================================= | -->
+
+	<!-- Technology --
+
+	<bananas>
+		
+	<div class="bambu-container2">
+			<div class="row" align="center">			
+				<h1><b><font size="15">💡 Technology</font></b></h1>
+				<div class="bambu-container" align="left" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px; PADDING-RIGHT: 50px">
+					<ul style="color: #2f2f2f" align="left">
+						<h1>Girls Who Code 💻</h1>
+						<p><b>Kevin Strileckis:</b> Girls Who Code is a nonprofit organization which aims to support and increase the number of women in computer science. The organization is working to close the gender gap in technology and change the image of what a programmer looks like and does. Club girls join a safe and supportive environment of peers & role models and learn to see themselves as computer scientists. Beyond the Club, girls can tap into an alumni network of tens of thousands of girls across the country who are using computer science to solve problems they care about. Club girls learn the concepts of loops, variables, conditionals, and functions that form the basis for all programming languages — whether they want to build a website, an app, or a robot. Club girls work in teams to design and build a Computer Science “CS” Impact Project that solves real world problems they care about through code.</p>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="bambu-container1">
+
+			<div class="row" align="center">
+				<img class="roundimg" src="./images/school/ghc-closeup.jpg" alt="" style="margin-BOTTOM: 15px" width="17%" height"17%">
+				<img class="roundimg" src="./images/school/ghc-lab.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="30%" height"30%">
+				<img class="roundimg" src="./images/school/ghc-smile.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="30%" height"30%">
+				<img class="roundimg" src="./images/school/ghc-super-closeup.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="17%" height"17%">
+				<img class="roundimg" src="./images/school/ghc-yay.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="30%" height"30%">
+				<img class="roundimg" src="./images/school/ghc-board.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="40%" height"40%">
+			</div>
+
+			<br><br><br><hr>
+
+		</div>	
+		
+		<div class="bambu-container2">
+			<div class="row" align="center">			
+				<div class="bambu-container" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px; PADDING-LEFT: 50px">
+					<ul style="color: #2f2f2f" align="center">
+						<h1>🖥️ Programmer Developer’s Club</h1>
+						<p><b>Kevin Strileckis:</b> Programmer Developer’s Club competes in three person teams in competitions at Stetson University and University of Central Florida. Teams get one computer and compete against other regional high schools. At meetings, members practice and review competition problems.</p>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="bambu-container1">
+
+			<div class="row" align="center">
+				<img class="roundimg" src="./images/school/pdc-pose.jpg" alt="" style="margin-BOTTOM: 15px" width="25%" height"25%">
+				<img class="roundimg" src="./images/school/pdc-point.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="44%" height"44%">
+				<img class="roundimg" src="./images/school/pdc-book.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="25%" height"25%">
+			</div>
+
+		</div>
+
+	</bananas>
+
+	-->
+	
+
+
+
+	<!-- | ======================================= ENGINEERING ======================================= | -->
+
+	<!-- Engineering --
+
+	<bananas>
+
+		<div class="bambu-container2">
+			<div class="row" align="center">			
+				<h1><b><font size="15">🛠️️ Engineering</font></b></h1>
+				<div class="bambu-container" align="left" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px; PADDING-RIGHT: 50px">
+					<ul style="color: #2f2f2f" align="left">
+						<h1>Odyssey of the Mind 🧠</h1>
+						<p><b>Kelly Meahl:</b>  Odyssey of the Mind is an international creative problem-solving program that engages students in their learning by allowing their knowledge and ideas to come to life in an exciting, productive environment. Participants build self-confidence, develop life skills, create new friendships, and are able to recognize and explore their true potential. The main goal of Odyssey is to perform a skit lasting eight minutes. The twist is that during the course of the skit, teams have to present a solution to one of a set range of problems that can range from demonstrating the strength of a structure built by the team to showing how a character changes throughout the skit.</p>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="bambu-container1">
+
+			<div class="row" align="center">
+				<img class="roundimg" src="./images/school/om-pose.jpg" alt="" style="margin-BOTTOM: 15px" width="25%" height"25%">
+				<img class="roundimg" src="./images/school/om-night.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="30%" height"30%">
+				<img class="roundimg" src="./images/school/om-sitting.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="35%" height"35%">
+				<img class="roundimg" src="./images/school/om-blue.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="20%" height"20%">
+				<img class="roundimg" src="./images/school/om-hat.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="20%" height"20%">
+				<img class="roundimg" src="./images/school/om-tape.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="20%" height"20%">
+			</div>
+
+		</div>	
+
+	</bananas>
+
+	-->
+
+
+
+
+	<!-- | ======================================= MATH ======================================= | -->
+
+	<!-- Math --
+
+	<bananas>
+
+		<div class="bambu-container2">
+			<div class="row" align="center">			
+				<h1><b><font size="15">📏 Math</font></b></h1>
+				<div class="bambu-container" align="left" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px; PADDING-RIGHT: 50px">
+					<ul style="color: #2f2f2f" align="left">
+						<h1>Mu Alpha Theta 📚</h1>
+						<p><b>Trung Vong:</b>  Mu Alpha Theta, the National High School and Two-Year College Mathematics Honor Society, was formed in 1957 at the University of Oklahoma.  It is dedicated to inspiring a keen interest in mathematics, developing strong scholarship in the subject, and promoting the enjoyment of mathematics in high school and two-year college students. As of June 2017, more than 110,000 students are Mu Alpha Theta members at more than 2,400 schools in the United States and in 20 foreign countries. Each affiliate of MAƟ participates in one of four subjects: Algebra 2, Precalculus, Statistics, and Calculus. Typically, ninth graders compete in Algebra 2, tenth graders compete in Precalculus, and eleventh and twelfth graders compete in Statistics or Calculus.</p>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="bambu-container1">
+
+			<div class="row" align="center">
+					<img class="roundimg" src="./images/school/mao-orange.jpg" alt="" style="margin-BOTTOM: 15px" width="30%" height"30%">
+				<img class="roundimg" src="./images/school/mao-black.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="30%" height"30%">
+				<img class="roundimg" src="./images/school/mao-pose.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="30%" height"30%">
+				<img class="roundimg" src="./images/school/redwin.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="30%" height"30%">
+				<img class="roundimg" src="./images/school/yellowwin.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="27%" height"27%">
+			</div>
+
+			<br><br>
+
+		</div>
+
+	</bananas>
+
+	-->
+
+
+
+
+	<!-- | ======================================= OTHER ======================================= | -->
+	
+	<!-- Other --
+
+	<bananas>
+
+	<div class="bambu-container2">
+			<div class="row" align="center">			
+				<h1><b><font size="15">🚪 Other</font></b></h1>
+				<div class="bambu-container" align="left" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px; PADDING-RIGHT: 50px">
+					<ul style="color: #2f2f2f" align="left">
+						<h1>Tuesday Tutoring 👨‍🏫</h1>
+						<p><b>Carson Stone:</b> Seminole High’s Tuesday Tutoring connects high-achieving students with struggling students in disciplines in math and science, such as Algebra and Chemistry. Students meet every Tuesday with help on homework, review on past tests, and more. </p>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="bambu-container1">
+
+			<div class="row" align="left">
+				<img class="roundimg" src="./images/school/tt-ashkon-rahbari.jpg" alt="" style="margin-LEFT: 75px; margin-BOTTOM: 15px" width="25%" height"25%">
+				<img class="roundimg" src="./images/school/tt-lab.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="25%" height"25%">
+			</div>
+
+			<br><br><br><hr>
+
+		</div>	
+		
+		<div class="bambu-container2">
+			<div class="row" align="center">			
+				<div class="bambu-container" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px; PADDING-LEFT: 50px">
+					<ul style="color: #2f2f2f" align="center">
+						<h1>🍏 Illuminati Academic Team</h1>
+						<p><b>Nicole Derosa and Vicki Browne:</b> The Illuminati team competes against other local teams and high schools in categories ranging from physics, to art, to foreign language. The most important competition of the year is the Seminole County Academic Tournament, which Illuminati has championed for eight years running. They fully intend to keep up their streak. Other competitions include the National History Bowl and Seminole State College’s competition. Only the top players within the Illuminati team get to compete, so it is important that all members continue to study and sharpen their skills.</p>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="bambu-container1">
+
+			<div class="row" align="center">
+				<img class="roundimg" src="./images/school/ia-yellow.jpg" alt="" style="margin-BOTTOM: 15px" width="30%" height"30%">
+				<img class="roundimg" src="./images/school/ia-dark.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="35%" height"35%">
+				<img class="roundimg" src="./images/school/ia-flag.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="20%" height"20%">
+			</div>
+
+		</div>
+
+	</bananas>
+
+	-->
+
+
+
+	</div>
+
+	</div>
+	</div>
+		
+	<footer id="bambnut-bottom-foot" role="contentinfo" style="background: #fff;">
+		<div class="bambnut-container">
+			<div class="row row-pb-md">
+
+				<div class="col-md-10">
+					<div class="gtco-widget">
+						<h3>About SHS</h3>
+						<p>Seminole High School is a comprehensive public high school enrolling approximately 3200 students in grades 9 through 12. The school offers two magnet programs, the International Baccalaureate (IB) and Academy of Health Careers, plus the traditional comprehensive high school program which offers remedial, standard, honors, gifted, and Advanced Placement classes.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	</div>
+
+	<div class="bambnut-TOP-GO js-top">
+		<a href="#" class="js-gotop"><font size="6">⬆</font></a>
+	</div>
+	
+	
+	<script src="js/jquery.min.js"></script>
+
+	<script src="js/jquery.easing.1.3.js"></script>
+	
+	<script src="js/bootstrap.min.js"></script>
+	
+	<script src="js/owl.carousel.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+  		$('.owl-carousel').owlCarousel();
+		});
+	</script>
+	<script>
+		var owl = $('.owl-carousel');
+	owl.owlCarousel({
+	    items:4,
+	    loop:true,
+	    margin:10,
+	    autoplay:true,
+	    autoplayTimeout:1000,
+	    autoplayHoverPause:true
+	});
+	owl.trigger('play.owl.autoplay',[5000])
+	</script>
+	
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/main.js"></script>
+
+	<!-- | ======================================= SCRIPT FOR CHANGING TABS ======================================= | -->
+
+	<script>
+
+	$('#IB-BUTTON').click(function() {
+		var extras = document.getElementById("pumpkintime");
+		var ap = document.getElementById("aptab");
+		var media = document.getElementById("mediatab");
+		var health = document.getElementById("healthtab");
+		var ib = document.getElementById("ibtab");
+	extras.style.display = "none";
+    ap.style.display = "none";
+	media.style.display = "none";
+	health.style.display = "none";
+	ib.style.display = "block";
+		
+	});
+
+	$('#HEALTH-BUTTON').click(function() {
+		var extras = document.getElementById("pumpkintime");
+		var ap = document.getElementById("aptab");
+		var media = document.getElementById("mediatab");
+		var health = document.getElementById("healthtab");
+		var ib = document.getElementById("ibtab");
+	extras.style.display = "none";
+    ap.style.display = "none";
+	media.style.display = "none";
+	health.style.display = "block";
+	ib.style.display = "none";
+		
+	});
+
+	$('#MEDIA-BUTTON').click(function() {
+		var extras = document.getElementById("pumpkintime");
+		var ap = document.getElementById("aptab");
+		var media = document.getElementById("mediatab");
+		var health = document.getElementById("healthtab");
+		var ib = document.getElementById("ibtab");
+	extras.style.display = "none";
+    ap.style.display = "none";
+	media.style.display = "block";
+	health.style.display = "none";
+	ib.style.display = "none";
+
+	});
+
+	$('#AP-BUTTON').click(function() {
+		var extras = document.getElementById("pumpkintime");
+		var ap = document.getElementById("aptab");
+		var media = document.getElementById("mediatab");
+		var health = document.getElementById("healthtab");
+		var ib = document.getElementById("ibtab");
+	extras.style.display = "none";
+    ap.style.display = "block";
+	media.style.display = "none";
+	health.style.display = "none";
+	ib.style.display = "none";
+		
+	});
+
+
+	$('#EXTRA-BUTTON').click(function() {
+		var extras = document.getElementById("pumpkintime");
+		var ap = document.getElementById("aptab");
+		var media = document.getElementById("mediatab");
+		var health = document.getElementById("healthtab");
+		var ib = document.getElementById("ibtab");
+	extras.style.display = "block";
+    ap.style.display = "none";
+	media.style.display = "none";
+	health.style.display = "none";
+	ib.style.display = "none";
+    
+	});
+
+	$('#SCIENCE-BUTTON').click(function() {
+		$('bananas').html('<div class="bambu-container2">			<div class="row" align="center">							<h1><b><font size="15">⚗️ Science</font></b></h1>				<div class="bambu-container" align="left" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px; PADDING-RIGHT: 50px">					<ul style="color: #2f2f2f" align="left">						<h1>Science National Honor Society 🔬</h1>						<p><b>Ramsey Robinson:</b>  NHS is a prominent scientific organization that will engender a new group of young thinkers who will be the future of industry, research, and scientific exploration for America. The Seminole High Science NHS is organized into 8 distinct scientific committees which are as follows: chemistry, biology, computer science, physics, psychology, environmental science, health science, and STEMpowerment. Science NHS members have numerous opportunities to explore their scientific endeavors through these committee workshops held throughout the year. Members can learn to program a mobile app, conduct a forensics lab, practice how to do hands-only CPR, and be apart of a short term memory loss experiment. Science NHS embraces all there is to offer in the field of science. To uphold good standing within the chapter, all members are required to document and submit to the secretaries: 90 minutes of science tutoring, 4 hours of science experience, and 10 hours of community service.</p>					</ul>				</div>			</div>		</div>		<div class="bambu-container1">			<div class="row" align="center">				<img class="roundimg" src="./images/school/snhs-shirts.jpg" alt="" style="margin-BOTTOM: 15px" width="25%" height"25%">				<img class="roundimg" src="./images/school/health-room.png" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="35%" height"35%">				<img class="roundimg" src="./images/school/chem-lab.png" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="25%" height"25%">				<img class="roundimg" src="./images/school/chem-prep.png" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="22%" height"22%">				<img class="roundimg" src="./images/school/chem-working.png" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="20%" height"20%">				<img class="roundimg" src="./images/school/outside.png" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="20%" height"20%">			</div>			<br><br><br><hr><br>		</div>					<div class="bambu-container2">			<div class="row" align="center">							<div class="bambu-container" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px; PADDING-LEFT: 50px">					<ul style="color: #2f2f2f" align="center">						<h1>🔭 Science Research & Competition Club</h1>						<p><b>Amber Morgan:</b> After finalizing their research for the past three months, students in the Experimental Science class will present their projects to a series of judges at the Seminole County Regional Science and Engineering Fair. Around twenty Seminole High School students will attend the Seminole County Science and Engineering Fair. Categories include: Animal Sciences, Biochemistry, Chemistry, Energy and Transportation, Medicine and Health Sciences, Physics and Astronomy, and many more.</p>					</ul>				</div>			</div>			<hr><br>		</div>		<div class="bambu-container2">			<div class="row" align="center">							<div class="bambu-container" align="right" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px; PADDING-LEFT: 50px">					<ul style="color: #2f2f2f" align="right">						<h1>👩‍⚕️ Health Occupations Students of America</h1>						<p><b>Mary Stump:</b> purpose of the HOSA organization is to develop leadership and technical HOSA skill competencies through a program of motivation, awareness and recognition, which is an integral part of the Health Science Education instructional program. The Competitive Events Program is designed to motivate HOSA members and provide a system for recognizing the competencies developed by members through Health Science and Biomedical Science class instruction, related job training, and HOSA related activities. Every Thursday, HOSA meets in the Health Academy teaching theater. During this meeting, each member breaks into the competition group they chose and practice begins. For example, the CPR teams go over scenarios and review first aid techniques.</p>					</ul>				</div>			</div>		</div>		<div class="bambu-container1">			<div class="row" align="center">				<img class="roundimg" src="./images/school/hosa-sitting.jpg" alt="" width="25%" height"25%">				<img class="roundimg" src="./images/school/hosa-standing.jpg" alt="" style="margin-LEFT: 15px" width="25%" height"25%">				<img class="roundimg" src="./images/school/hosa-outside.jpg" alt="" style="margin-LEFT: 15px" width="30%" height"30%">				<img class="roundimg" src="./images/school/hosa-baby.jpg" alt="" style="margin-LEFT: 15px" width="15%" height"15%">			</div>			<br><br>		</div>');
+	});
+
+	$('#TECHNOLOGY-BUTTON').click(function() {
+		$('bananas').html('<div class="bambu-container2">			<div class="row" align="center">							<h1><b><font size="15">💡 Technology</font></b></h1>				<div class="bambu-container" align="left" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px; PADDING-RIGHT: 50px">					<ul style="color: #2f2f2f" align="left">						<h1>Girls Who Code 💻</h1>						<p><b>Kevin Strileckis:</b> Girls Who Code is a nonprofit organization which aims to support and increase the number of women in computer science. The organization is working to close the gender gap in technology and change the image of what a programmer looks like and does. Club girls join a safe and supportive environment of peers & role models and learn to see themselves as computer scientists. Beyond the Club, girls can tap into an alumni network of tens of thousands of girls across the country who are using computer science to solve problems they care about. Club girls learn the concepts of loops, variables, conditionals, and functions that form the basis for all programming languages — whether they want to build a website, an app, or a robot. Club girls work in teams to design and build a Computer Science “CS” Impact Project that solves real world problems they care about through code.</p>					</ul>				</div>			</div>		</div>		<div class="bambu-container1">			<div class="row" align="center">				<img class="roundimg" src="./images/school/ghc-closeup.jpg" alt="" style="margin-BOTTOM: 15px" width="17%" height"17%">				<img class="roundimg" src="./images/school/ghc-lab.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="30%" height"30%">				<img class="roundimg" src="./images/school/ghc-smile.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="30%" height"30%">				<img class="roundimg" src="./images/school/ghc-super-closeup.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="17%" height"17%">				<img class="roundimg" src="./images/school/ghc-yay.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="30%" height"30%">				<img class="roundimg" src="./images/school/ghc-board.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="40%" height"40%">			</div>			<br><br><br><hr>		</div>					<div class="bambu-container2">			<div class="row" align="center">							<div class="bambu-container" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px; PADDING-LEFT: 50px">					<ul style="color: #2f2f2f" align="center">						<h1>🖥️ Programmer Developer’s Club</h1>						<p><b>Kevin Strileckis:</b> Programmer Developer’s Club competes in three person teams in competitions at Stetson University and University of Central Florida. Teams get one computer and compete against other regional high schools. At meetings, members practice and review competition problems.</p>					</ul>				</div>			</div>		</div>		<div class="bambu-container1">			<div class="row" align="center">				<img class="roundimg" src="./images/school/pdc-pose.jpg" alt="" style="margin-BOTTOM: 15px" width="25%" height"25%">				<img class="roundimg" src="./images/school/pdc-point.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="44%" height"44%">				<img class="roundimg" src="./images/school/pdc-book.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="25%" height"25%">			</div>		</div>');
+	});
+
+	$('#ENGINEERING-BUTTON').click(function() {
+		$('bananas').html('<div class="bambu-container2">			<div class="row" align="center">							<h1><b><font size="15">🛠️️ Engineering</font></b></h1>				<div class="bambu-container" align="left" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px; PADDING-RIGHT: 50px">					<ul style="color: #2f2f2f" align="left">						<h1>Odyssey of the Mind 🧠</h1>						<p><b>Kelly Meahl:</b>  Odyssey of the Mind is an international creative problem-solving program that engages students in their learning by allowing their knowledge and ideas to come to life in an exciting, productive environment. Participants build self-confidence, develop life skills, create new friendships, and are able to recognize and explore their true potential. The main goal of Odyssey is to perform a skit lasting eight minutes. The twist is that during the course of the skit, teams have to present a solution to one of a set range of problems that can range from demonstrating the strength of a structure built by the team to showing how a character changes throughout the skit.</p>					</ul>				</div>			</div>		</div>		<div class="bambu-container1">			<div class="row" align="center">				<img class="roundimg" src="./images/school/om-pose.jpg" alt="" style="margin-BOTTOM: 15px" width="25%" height"25%">				<img class="roundimg" src="./images/school/om-night.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="30%" height"30%">				<img class="roundimg" src="./images/school/om-sitting.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="35%" height"35%">				<img class="roundimg" src="./images/school/om-blue.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="20%" height"20%">				<img class="roundimg" src="./images/school/om-hat.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="20%" height"20%">				<img class="roundimg" src="./images/school/om-tape.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="20%" height"20%">			</div>		</div>');
+	});
+
+	$('#MATH-BUTTON').click(function() {
+		$('bananas').html('<div class="bambu-container2">			<div class="row" align="center">							<h1><b><font size="15">📏 Math</font></b></h1>				<div class="bambu-container" align="left" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px; PADDING-RIGHT: 50px">					<ul style="color: #2f2f2f" align="left">						<h1>Mu Alpha Theta 📚</h1>						<p><b>Trung Vong:</b>  Mu Alpha Theta, the National High School and Two-Year College Mathematics Honor Society, was formed in 1957 at the University of Oklahoma.  It is dedicated to inspiring a keen interest in mathematics, developing strong scholarship in the subject, and promoting the enjoyment of mathematics in high school and two-year college students. As of June 2017, more than 110,000 students are Mu Alpha Theta members at more than 2,400 schools in the United States and in 20 foreign countries. Each affiliate of MAƟ participates in one of four subjects: Algebra 2, Precalculus, Statistics, and Calculus. Typically, ninth graders compete in Algebra 2, tenth graders compete in Precalculus, and eleventh and twelfth graders compete in Statistics or Calculus.</p>					</ul>				</div>			</div>		</div>		<div class="bambu-container1">			<div class="row" align="center">					<img class="roundimg" src="./images/school/mao-orange.jpg" alt="" style="margin-BOTTOM: 15px" width="30%" height"30%">				<img class="roundimg" src="./images/school/mao-black.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="30%" height"30%">				<img class="roundimg" src="./images/school/mao-pose.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="30%" height"30%">				<img class="roundimg" src="./images/school/redwin.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="30%" height"30%">				<img class="roundimg" src="./images/school/yellowwin.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="27%" height"27%">			</div>			<br><br>		</div>');
+	});
+
+	$('#OTHER-BUTTON').click(function() {
+		$('bananas').html('<div class="bambu-container2">			<div class="row" align="center">							<h1><b><font size="15">🚪 Other</font></b></h1>				<div class="bambu-container" align="left" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px; PADDING-RIGHT: 50px">					<ul style="color: #2f2f2f" align="left">						<h1>Tuesday Tutoring 👨‍🏫</h1>						<p><b>Carson Stone:</b> Seminole High’s Tuesday Tutoring connects high-achieving students with struggling students in disciplines in math and science, such as Algebra and Chemistry. Students meet every Tuesday with help on homework, review on past tests, and more. </p>					</ul>				</div>			</div>		</div>		<div class="bambu-container1">			<div class="row" align="left">				<img class="roundimg" src="./images/school/tt-ashkon-rahbari.jpg" alt="" style="margin-LEFT: 75px; margin-BOTTOM: 15px" width="25%" height"25%">				<img class="roundimg" src="./images/school/tt-lab.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="25%" height"25%">			</div>			<br><br><br><hr>		</div>					<div class="bambu-container2">			<div class="row" align="center">							<div class="bambu-container" align="center" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px; PADDING-LEFT: 50px">					<ul style="color: #2f2f2f" align="center">						<h1>🍏 Illuminati Academic Team</h1>						<p><b>Nicole Derosa and Vicki Browne:</b> The Illuminati team competes against other local teams and high schools in categories ranging from physics, to art, to foreign language. The most important competition of the year is the Seminole County Academic Tournament, which Illuminati has championed for eight years running. They fully intend to keep up their streak. Other competitions include the National History Bowl and Seminole State College’s competition. Only the top players within the Illuminati team get to compete, so it is important that all members continue to study and sharpen their skills.</p>					</ul>				</div>			</div>		</div>		<div class="bambu-container1">			<div class="row" align="center">				<img class="roundimg" src="./images/school/ia-yellow.jpg" alt="" style="margin-BOTTOM: 15px" width="30%" height"30%">				<img class="roundimg" src="./images/school/ia-dark.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="35%" height"35%">				<img class="roundimg" src="./images/school/ia-flag.jpg" alt="" style="margin-LEFT: 15px; margin-BOTTOM: 15px" width="20%" height"20%">			</div>		</div>');
+	});
+
+	</script>
+	</body>
+</html>
