@@ -1,7 +1,7 @@
-# BambuBunny.github.io
-Bambu Bunny's website.
+# Seminolemun.github.io
+SeminoleMUN's website.
 
-CREDITS FOR MAKING BAMBU BUNNYS WEBSITE POSSIBLE:
+CREDITS:
 
 Magnific Popup: http://dimsemenov.com/plugins/magnific-popup/
 
